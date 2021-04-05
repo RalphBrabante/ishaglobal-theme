@@ -1,0 +1,16 @@
+{
+  "name": "ishaglobal-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile-css": "node-sass sass/main.sass assets/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
