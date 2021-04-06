@@ -1,5 +1,21 @@
-html{
-  padding:0;
-  margin:0;
+$nav-text-color: #474747;
+$primary: #3669a2;
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
 }
 
+body {
+
+  font-family: 'Quicksand', sans-serif;
+}
+
+*,
+::after,
+::before {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
