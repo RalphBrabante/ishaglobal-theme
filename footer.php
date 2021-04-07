@@ -98,7 +98,7 @@
         </div>
 
         <div class="footer__copyright">
-            <p>Copyright © 2021 Isha Global Philippines | Privacy Policy |Web Design by Sysgage I.T. Solutions Co.</p>
+            <p>Copyright © 2021 Isha Global Philippines | Privacy Policy | Web Design by Sysgage I.T. Solutions Co.</p>
         </div>
 
         <div class="footer__social">
