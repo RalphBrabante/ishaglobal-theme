@@ -131,6 +131,36 @@
   }
 }
 
+
+
+.featurette-section{
+  padding:rem 0;
+}
+
+.featurette-section__inner .row .col{
+  padding:9rem 3rem;
+  margin-bottom:1rem;
+  background-color:#f1f9ff;
+  display:flex;
+}
+
+.col-5-meta1{
+  justify-content:flex-end;
+}
+
+.col-5-meta2{
+  justift-content:flex-start;
+}
+
+.featurette-section__inner .row .col:first-child{
+  margin-right:1rem;
+}
+
+.featurette-section__meta{
+  max-width:52.5rem;
+}
+
+
 /* Footer */
 
 
