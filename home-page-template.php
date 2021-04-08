@@ -139,6 +139,119 @@ get_header();
         </div>
     </section>
 
+    <section class="why-choose-us-section large-margin-top"
+             style="background:url('http://localhost/ishaglobal/wp-content/uploads/2021/04/sec5-bg_02.jpg');">
+        <div class="why-choose-us-section__inner">
+            <h2>Why Choose Performance Canvas Financials</h2>
+
+            <div class="why-choose-us-section__card-container inline large-margin-top">
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+                <div class="why-choose-us-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/cloud-icon_03.png"/>
+                    <p class="why-choose-us-section__text">Cloud</p>
+                    <p><strong>This cloud-based FP&A solution lets you enjoy all the known benefits of budgeting and
+                            reporting in the cloud – flexibility, cost-efficiency, automatic updates,
+                            scalability.</strong></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="clients-section extra-large-margin-top">
+        <div class="clients-section__inner">
+            <h2>Trusted by Brands Globally</h2>
+            <?php echo do_shortcode('[sp_wpcarousel id="55"]'); ?>
+        </div>
+    </section>
+
+    <section class="integration-section">
+        <div class="integration-section__inner inline">
+            <div class="col-5">
+                <div class="row integration-section__img-container inline">
+                    <div class="col-5">
+                        <img class="img-responsive" href="#"
+                             src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                    </div>
+                    <div class="col-5 no-box-shadow">
+                    </div>
+                </div>
+                <div class="row integration-section__img-container inline">
+                    <div class="col-5">
+                        <img class="img-responsive" href="#"
+                             src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                    </div>
+                    <div class="col-5">
+                        <img class="img-responsive" href="#"
+                             src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 integration-section__text-container">
+                <h2>
+                    Integrates Natively with Onprem or<br/>
+                    Cloud ERP Systems in<br/>
+                    the Market
+                </h2>
+            </div>
+        </div>
+    </section>
+
     <section class="upsell-section inline"
              style="background: linear-gradient(to left, white 30%, transparent 70%), url(<?php echo the_field('upsell_background'); ?>); background-position:top; background-size: cover;">
         <div class="upsell-section__col col-6"></div>
