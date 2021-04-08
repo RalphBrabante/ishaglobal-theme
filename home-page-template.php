@@ -69,12 +69,14 @@ get_header();
                             intelligently automate your processes elevating your FP&A process.</p>
                     </div>
                 </div>
-                <div class="col col-5" style="background: url(<?php echo the_field('top_info_background_image'); ?>); background-position:center; background-size: cover;">
+                <div class="col col-5"
+                     style="background: url(<?php echo the_field('backgorund_image_1'); ?>); background-position:center; background-size: cover;">
 
                 </div>
             </div>
             <div class="row inline">
-                <div class="col col-5" style="background: url(<?php echo the_field('top_info_background_image'); ?>); background-position:center; background-size: cover;">
+                <div class="col col-5"
+                     style="background: url(<?php echo the_field('backgorund_image_2'); ?>); background-position:center; background-size: cover;">
 
                 </div>
                 <div class="col col-5 col-5-meta2">
@@ -90,6 +92,63 @@ get_header();
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="platform-section">
+        <div class="platform-section__inner">
+            <h2>A Complete and Unified Platform</h2>
+            <p>Performance Canvas offers you a single, unified, and easy-to-use platform for…</p>
+
+            <div class="platform-section__card-container inline">
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+                <div class="platform-section__card">
+                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/report-icon_03.png"/>
+                    <p class="platform-section__text">Reporting and Analysis</p>
+                </div>
+
+            </div>
+
+            <a href="#" class="btn-call-to-action">Download Brochure</a>
+        </div>
+    </section>
+
+    <section class="upsell-section inline"
+             style="background: linear-gradient(to left, white 30%, transparent 70%), url(<?php echo the_field('upsell_background'); ?>); background-position:top; background-size: cover;">
+        <div class="upsell-section__col col-6"></div>
+        <div class="upsell-section__col col-4">
+            <div class="upsell-section__message">
+                <h2>READY TO MOVE YOUR BUDGETING AND REPORTING PROCESS TO THE CLOUD?</h2>
+                <a href="#" class="btn-call-to-action large-margin-top">Request a Free Trial</a>
+            </div>
+        </div>
+
     </section>
 
 </div>

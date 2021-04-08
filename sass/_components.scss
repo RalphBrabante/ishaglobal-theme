@@ -1,8 +1,7 @@
-
 /* PAGE WRAPPER */
 
-.page-wrapper{
-  padding-top:11rem;
+.page-wrapper {
+  padding-top: 11rem;
 }
 
 /* HEADER */
@@ -109,10 +108,10 @@
 
 /* HOME SECTIONS */
 
-.home-top-info{
-  height:100vh;
+.home-top-info {
+  height: 100vh;
 
-  &__inner{
+  &__inner {
     max-width: 155.8rem;
     margin: 0 auto;
     align-items: center;
@@ -121,7 +120,7 @@
   }
 }
 
-.get-started-section{
+.get-started-section {
   text-align: center;
   padding: 10rem 0;
 
@@ -132,32 +131,65 @@
 }
 
 
-
-.featurette-section{
-  padding:rem 0;
+.featurette-section {
+  padding: rem 0;
 }
 
-.featurette-section__inner .row .col{
-  padding:9rem 3rem;
-  margin-bottom:1rem;
-  background-color:#f1f9ff;
-  display:flex;
+.featurette-section__inner .row .col {
+  padding: 12rem 3rem;
+  margin-bottom: 1rem;
+  background-color: #f1f9ff;
+  display: flex;
 }
 
-.col-5-meta1{
-  justify-content:flex-end;
+.col-5-meta1 {
+  justify-content: flex-end;
 }
 
-.col-5-meta2{
-  justift-content:flex-start;
+.col-5-meta2 {
+  justift-content: flex-start;
 }
 
-.featurette-section__inner .row .col:first-child{
-  margin-right:1rem;
+.featurette-section__inner .row .col:first-child {
+  margin-right: 1rem;
 }
 
-.featurette-section__meta{
-  max-width:52.5rem;
+.featurette-section__meta {
+  max-width: 52.5rem;
+}
+
+
+.upsell-section {
+  padding: 12rem 1rem;
+
+  &__message {
+    max-width: 50rem;
+  }
+}
+
+.platform-section {
+  padding: 5rem 1rem;
+
+  &__card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__card {
+    padding:1rem;
+    margin:3rem 0;
+    width: 20%;
+  }
+
+  &__text{
+    margin-top:3rem;
+  }
+
+  &__inner {
+    text-align: center;
+    max-width: 132rem;
+    margin: 0 auto;
+  }
 }
 
 
@@ -201,24 +233,22 @@
     font-weight: 500;
   }
 
-  &__social{
-    padding:2rem 0;
-    display:flex;
-    justify-content:center;
+  &__social {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
   }
 
-  &__social a{
+  &__social a {
 
-    padding:0 1rem;
+    padding: 0 1rem;
 
   }
 
-  &__social img{
-    max-width:2.5rem;
+  &__social img {
+    max-width: 2.5rem;
   }
 }
-
-
 
 
 /* Generic Unordered List */
@@ -242,14 +272,14 @@
 
 /* BUTTONS */
 
-.btn-call-to-action{
-  background:orangered;
-  display:inline-block;
-  padding:1.6rem 6rem;
-  text-transform:uppercase;
-  text-decoration:none;
-  color:white;
-  font-size:1.6rem;
-  font-weight:bold;
+.btn-call-to-action {
+  background: orangered;
+  display: inline-block;
+  padding: 1.6rem 6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 

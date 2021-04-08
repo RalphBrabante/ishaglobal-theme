@@ -1,14 +1,17 @@
 html {
   padding: 0;
   margin: 0;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  box-sizing: border-box; }
 
 body {
+  box-sizing: border-box;
   font-family: 'Quicksand', sans-serif; }
 
 *,
 ::after,
 ::before {
+  box-sizing: border-box;
   outline: none;
   margin: 0;
   padding: 0; }
@@ -162,7 +165,7 @@ h4 {
   padding: rem 0; }
 
 .featurette-section__inner .row .col {
-  padding: 9rem 3rem;
+  padding: 12rem 3rem;
   margin-bottom: 1rem;
   background-color: #f1f9ff;
   display: flex; }
@@ -178,6 +181,27 @@ h4 {
 
 .featurette-section__meta {
   max-width: 52.5rem; }
+
+.upsell-section {
+  padding: 12rem 1rem; }
+  .upsell-section__message {
+    max-width: 50rem; }
+
+.platform-section {
+  padding: 5rem 1rem; }
+  .platform-section__card-container {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .platform-section__card {
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 20%; }
+  .platform-section__text {
+    margin-top: 3rem; }
+  .platform-section__inner {
+    text-align: center;
+    max-width: 132rem;
+    margin: 0 auto; }
 
 /* Footer */
 .footer {
