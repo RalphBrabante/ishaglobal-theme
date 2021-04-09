@@ -16,6 +16,22 @@ body {
   margin: 0;
   padding: 0; }
 
+/* Pages */
+.page-header {
+  height: 25.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.page-heading {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.page-main {
+  max-width: 132rem;
+  margin: 0 auto;
+  padding: 2rem 3rem; }
+
 /* INLINE DISPLAY ELMENTS */
 .inline {
   display: flex; }
@@ -67,6 +83,15 @@ h3 {
 h4 {
   font-size: 1.5rem;
   font-weight: bold; }
+
+/* Page List */
+.page-main ul {
+  margin-left: 2rem;
+  margin-top: 1rem; }
+
+.page-main ul li {
+  font-size: 1.6rem;
+  line-height: 2.5rem; }
 
 /* PAGE WRAPPER */
 .page-wrapper {
