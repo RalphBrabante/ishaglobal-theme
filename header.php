@@ -1,6 +1,7 @@
 <html>
 <head>
     <?php wp_head(); ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -16,13 +17,16 @@
             }
             ?>
         </div>
-        <div class="col-8  header__menu-container">
-            <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-            <div class="header__button-set">
-                <a href="#" class="btn btn-blue">Free Trial</a>
-                <a href="#" class="btn btn-orange">Request Demo</a>
-            </div>
+        <div class="col-8 header__contact">
+            <strong>Call Now to Schedule an Estimate</strong> (02) 0000-0000
         </div>
+    </div>
+    <div class="header__menu inline">
+        <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
+        <div class="search-form-wrapper">
+            <?php get_search_form(); ?>
+        </div>
+
     </div>
 </header>
 
