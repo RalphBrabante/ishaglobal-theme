@@ -30,7 +30,7 @@ body {
 .page-main {
   max-width: 132rem;
   margin: 0 auto;
-  padding: 2rem 3rem; }
+  padding: 5rem 1rem; }
 
 /* INLINE DISPLAY ELMENTS */
 .inline {
@@ -86,7 +86,7 @@ h4 {
 
 /* Page List */
 .page-main ul {
-  margin-left: 2rem;
+  margin-left: 5rem;
   margin-top: 1rem; }
 
 .page-main ul li {

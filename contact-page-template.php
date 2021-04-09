@@ -1,4 +1,8 @@
 <?php
+/**
+ * Template Name: Contact Us
+ *
+ **/
 
 get_header();
 
@@ -20,7 +24,10 @@ get_header();
 
         </div>
         <?php the_content(); ?>
+
     </main>
+
+    <?php get_template_part( 'partials/content/upsell', 'section'); ?>
 </div>
 
 <?php get_footer(); ?>
