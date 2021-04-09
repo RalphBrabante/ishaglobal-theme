@@ -1,7 +1,7 @@
 /* PAGE WRAPPER */
 
 .page-wrapper {
-  padding-top: 11rem;
+  padding-top: 18rem;
 }
 
 /* HEADER */
@@ -12,22 +12,22 @@
   width: 100%;
   z-index: 99999;
   background: #fff;
-  padding:2rem 0 6.5rem 0;
+  padding: 2rem 0 6.5rem 0;
 
-  &__contact{
-    text-align:right;
-    font-size:1.6rem;
+  &__contact {
+    text-align: right;
+    font-size: 1.6rem;
   }
 
-  &__menu{
-    padding:0 2rem;
-    position:absolute;
-    background-color:$primary;
-    width:112.5rem;
-    left:50%;
+  &__menu {
+    padding: 0 2rem;
+    position: absolute;
+    background-color: $primary;
+    width: 112.5rem;
+    left: 50%;
     bottom: 0;
     white-space: nowrap;
-    transform:translate(-50%, 50%);
+    transform: translate(-50%, 50%);
     align-items: center;
   }
 
@@ -62,35 +62,35 @@
 
 /* Header Search Form */
 
-.search-form-wrapper{
-  width:100%;
-  display:flex;
-  justify-content:flex-end;
+.search-form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#searchform{
-  position:relative;
+#searchform {
+  position: relative;
 }
 
-#searchform label{
-  display:none;
+#searchform label {
+  display: none;
 }
 
-#searchform input[type='search']{
-  padding:1.2rem;
-  border-radius:2rem;
-  border:none;
-  position:relative;
+#searchform input[type='search'] {
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: none;
+  position: relative;
 }
 
-#searchsubmit{
+#searchsubmit {
   z-index: 99999;
-  position:absolute;
-  background:none;
-  border:none;
-  top:50%;
-  right:1rem;
-  transform:translateY(-50%);
+  position: absolute;
+  background: none;
+  border: none;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
 }
 
 /* Header Logo */
@@ -159,8 +159,12 @@
 
 /* HOME SECTIONS */
 
+.slideshow-section {
+  height: calc(100vh - 179px) !important;
+}
+
 .home-top-info {
-  height: 100vh;
+  height: calc(100vh - 179px);
 
   &__inner {
     max-width: 155.8rem;
@@ -168,6 +172,32 @@
     align-items: center;
     height: 100%;
 
+  }
+}
+
+.priority-section {
+  padding: 5rem 1rem;
+
+  & .col-4 {
+    padding: 1rem 7rem
+  }
+
+  &__inner {
+    max-width: 155.8rem;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  &__cards {
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    width: calc(33.33333333333333% - 6rem);
+    padding: 3rem 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0px #ddd;
   }
 }
 
@@ -181,6 +211,59 @@
   }
 }
 
+/* What we offer Section */
+.what-we-offer-section {
+  padding: 9rem 1rem;
+
+  &__inner {
+    max-width: 155.8rem;
+    margin: 0 auto;
+  }
+
+  & h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-bottom: 4px solid #fff;
+      left: 50%;
+      top: 1rem;
+      transform: translate(-50%);
+    }
+  }
+
+  &__card {
+    flex-wrap: wrap;
+    width: 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem 3rem;
+    margin: 2rem 2rem;
+
+    & h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $primary;
+      margin-bottom: 4rem;
+    }
+
+    & img {
+      margin: 3rem 2rem;
+    }
+  }
+
+
+}
+
+
+/* Featurette Section  */
 
 .featurette-section {
   padding: 2rem 0;
@@ -227,13 +310,13 @@
   }
 
   &__card {
-    padding:1rem;
-    margin:3rem 0;
+    padding: 1rem;
+    margin: 3rem 0;
     width: 20%;
   }
 
-  &__text{
-    margin-top:3rem;
+  &__text {
+    margin-top: 3rem;
     text-transform: uppercase;
   }
 
@@ -245,102 +328,97 @@
 }
 
 
-.why-choose-us-section{
-  padding:10rem 0;
+.why-choose-us-section {
+  padding: 10rem 0;
   transform: skewY(-7deg);
 
-  &__inner{
+  &__inner {
     transform: skewY(7deg);
-    text-align:center;
+    text-align: center;
     max-width: 132rem;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
-  &__card-container{
-    flex-wrap:wrap;
-    justify-content:center;
+  &__card-container {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  &__card{
-    width:33.33333333333333%;
-    text-align:center;
-    padding:3rem 2rem;
+  &__card {
+    width: 33.33333333333333%;
+    text-align: center;
+    padding: 3rem 2rem;
   }
 
-  &__text{
-    text-transform:uppercase;
-    font-size:2rem;
+  &__text {
+    text-transform: uppercase;
+    font-size: 2rem;
   }
 }
 
 
-.clients-section__inner{
-  max-width:132rem;
-  margin:0 auto;
-  text-align:center;
+.clients-section__inner {
+  max-width: 132rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Integration Section */
 
-.integration-section{
-  margin:5rem 0;
+.integration-section {
+  margin: 5rem 0;
 
-  &__inner{
-    max-width:134.4rem;
-    margin:0 auto;
+  &__inner {
+    max-width: 134.4rem;
+    margin: 0 auto;
   }
 
-  &__text-container{
-    text-align:right;
+  &__text-container {
+    text-align: right;
   }
 
-  &__text-container h2{
-    font-size:4rem;
+  &__text-container h2 {
+    font-size: 4rem;
   }
 
-  &__img-container .col-5{
-    margin:1rem 1rem;
-    padding:2rem;
-    box-shadow:0px 0px 5px 5px #f7f7f7;
+  &__img-container .col-5 {
+    margin: 1rem 1rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px 5px #f7f7f7;
   }
 
-  &__img-container .col-5 img{
-    margin:1rem 0;
+  &__img-container .col-5 img {
+    margin: 1rem 0;
   }
 }
 
 
 /* Client Slider Overrides */
 
-.slick-slide{
-  height:6rem;
-  width:auto;
+.slick-slide {
+  height: 6rem;
+  width: auto;
 }
 
 
-.wpcp-single-item{
-  border:none !important;
+.wpcp-single-item {
+  border: none !important;
 }
 
 
-.wpcp-slide-image img{
-  height:6rem !important;
-  width:auto;
+.wpcp-slide-image img {
+  height: 6rem !important;
+  width: auto;
 }
 
 
-.wpcp-carousel-wrapper{
-  margin:4rem 0;
+.wpcp-carousel-wrapper {
+  margin: 4rem 0;
 }
 
-.slick-arrow, .slick-dots{
+.slick-arrow, .slick-dots {
   display: none !important;
 }
-
-
-
-
-
 
 
 /* Footer */
@@ -350,6 +428,22 @@
   background: $footer-bg-color;
   padding: 1rem 0;
 
+  & h4 {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-bottom: 2px solid orangered;
+      left: 0;
+      top: .2rem;
+    }
+
+  }
+
+
   &__main {
     color: #fff;
   }
@@ -357,6 +451,7 @@
   &__inner {
     max-width: 155.8rem;
     margin: 0 auto;
+    padding:1rem;
   }
 
   &__header {
@@ -399,9 +494,9 @@
     max-width: 2.5rem;
   }
 
-  &__text{
-    text-transform:uppercase;
-    font-size:2rem;
+  &__text {
+    text-transform: uppercase;
+    font-size: 2rem;
   }
 }
 
