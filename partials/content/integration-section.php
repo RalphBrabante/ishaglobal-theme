@@ -4,7 +4,7 @@
             <div class="row integration-section__img-container inline">
                 <div class="col-5">
                     <img class="img-responsive" href="#"
-                         src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                         src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/dynamics-GP.png"/>
                 </div>
                 <div class="col-5 no-box-shadow">
                 </div>
@@ -12,11 +12,11 @@
             <div class="row integration-section__img-container inline">
                 <div class="col-5">
                     <img class="img-responsive" href="#"
-                         src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                         src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/dynamics-GP.png"/>
                 </div>
                 <div class="col-5">
                     <img class="img-responsive" href="#"
-                         src="http://localhost/ishaglobal/wp-content/uploads/2021/04/dynamics-GP.png"/>
+                         src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/dynamics-GP.png"/>
                 </div>
             </div>
         </div>

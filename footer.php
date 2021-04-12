@@ -3,7 +3,7 @@
     <div class="footer__inner">
         <div class="footer__header">
             <div class="footer__image-container">
-                <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/04/footer-logo.png" alt="White Footer Logo"/>
+                <img class="img-responsive" src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/footer-logo.png" alt="White Footer Logo"/>
             </div>
         </div>
 

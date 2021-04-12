@@ -28,9 +28,9 @@ body {
   font-weight: bold; }
 
 .page-main {
-  max-width: 132rem;
+  max-width: 112.5rem;
   margin: 0 auto;
-  padding: 5rem 5rem; }
+  padding: 5rem 2rem; }
 
 /* INLINE DISPLAY ELMENTS */
 .inline {
@@ -119,7 +119,7 @@ h4 {
     transform: translate(-50%, 50%);
     align-items: center; }
   .header__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     padding: 0rem 1rem; }
   .header__logo-container {
@@ -268,7 +268,7 @@ h4 {
 .home-top-info {
   height: calc(100vh - 179px); }
   .home-top-info__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     align-items: center;
     height: 100%; }
@@ -277,8 +277,8 @@ h4 {
 .top-info-v2 {
   position: relative; }
   .top-info-v2__inner {
-    width: 122.5rem;
-    max-width: 122.5rem;
+    width: 112.5rem;
+    max-width: 112.5rem;
     height: 100%;
     padding: 0 1rem;
     position: absolute;
@@ -307,7 +307,7 @@ h4 {
     color: #fff;
     background-color: rgba(94, 134, 200, 0.8); }
     .top-info-v2__footer__inner {
-      max-width: 155.8rem;
+      max-width: 112.5rem;
       margin: 0 auto; }
       .top-info-v2__footer__inner h2 {
         text-align: center;
@@ -434,7 +434,8 @@ h4 {
   background: #fff;
   display: flex;
   align-items: center;
-  background: #5e86c8; }
+  background: #5e86c8;
+  text-decoration: none; }
 
 .product-section__catalogue-btn h3 {
   text-transform: uppercase;
@@ -448,13 +449,13 @@ h4 {
   .priority-section .col-4 {
     padding: 1rem 7rem; }
   .priority-section__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     align-items: center; }
   .priority-section__cards {
     flex-wrap: wrap; }
   .priority-section__card {
-    width: calc(33.33333333333333% - 6rem);
+    width: calc(33.33333333333333% - 2rem);
     padding: 3rem 1rem;
     margin: 1rem;
     text-align: center;
@@ -471,7 +472,7 @@ h4 {
 .what-we-offer-section {
   padding: 9rem 1rem; }
   .what-we-offer-section__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto; }
   .what-we-offer-section h2 {
     color: #fff;
@@ -492,7 +493,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center; }
   .what-we-offer-section__card {
-    width: calc(33.33333333333333% - 12rem);
+    width: calc(33.33333333333333% - 4rem);
     min-width: 30rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
@@ -547,7 +548,7 @@ h4 {
     text-transform: uppercase; }
   .platform-section__inner {
     text-align: center;
-    max-width: 132rem;
+    max-width: 112.5rem;
     margin: 0 auto; }
 
 .why-choose-us-section {
@@ -556,7 +557,7 @@ h4 {
   .why-choose-us-section__inner {
     transform: skewY(7deg);
     text-align: center;
-    max-width: 132rem;
+    max-width: 112.5rem;
     margin: 0 auto; }
   .why-choose-us-section__card-container {
     flex-wrap: wrap;
@@ -570,7 +571,7 @@ h4 {
     font-size: 2rem; }
 
 .clients-section__inner {
-  max-width: 132rem;
+  max-width: 112.5rem;
   margin: 0 auto;
   text-align: center; }
 
@@ -578,7 +579,7 @@ h4 {
 .integration-section {
   margin: 5rem 5rem; }
   .integration-section__inner {
-    max-width: 134.4rem;
+    max-width: 112.5rem;
     margin: 0 auto; }
   .integration-section__text-container {
     text-align: right; }
@@ -626,7 +627,7 @@ h4 {
   .footer__main {
     color: #fff; }
   .footer__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     padding: 1rem; }
   .footer__header {
@@ -714,6 +715,15 @@ h4 {
   background: #fff !important;
   border: 1px solid #5e86c8 !important;
   padding: 2rem 1rem !important; }
+
+/* WP Buttons */
+.wp-block-button__link {
+  background-color: #5e86c8;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0; }
 
 @keyframes arrowRotate {
   from {

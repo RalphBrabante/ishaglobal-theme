@@ -32,7 +32,7 @@
   }
 
   &__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     padding: 0rem 1rem;
   }
@@ -232,7 +232,7 @@
   height: calc(100vh - 179px);
 
   &__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     align-items: center;
     height: 100%;
@@ -245,8 +245,8 @@
   position: relative;
 
   &__inner {
-    width: 122.5rem;
-    max-width: 122.5rem;
+    width: 112.5rem;
+    max-width: 112.5rem;
     height: 100%;
     padding: 0 1rem;
     position: absolute;
@@ -285,7 +285,7 @@
     background-color: rgba($primary, 0.8);
 
     &__inner {
-      max-width: 155.8rem;
+      max-width: 112.5rem;
       margin: 0 auto;
 
       & h2 {
@@ -302,6 +302,7 @@
 .products-section {
   background: black;
   padding: 5rem 1rem;
+
 
   & h2 {
     font-weight: 800;
@@ -424,35 +425,35 @@
   backface-visibility: hidden;
 }
 
-.product-section__card--back h3{
+.product-section__card--back h3 {
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
   font-weight: 700;
 
 }
 
-.product-section__catalogue-btn{
-  position:absolute;
-  right:0;
-  bottom:-3rem;
-  padding:1rem;
-  width:10rem;
-  height:10rem;
-  background:#fff;
-  display:flex;
-  align-items:center;
-  background:$primary;
+.product-section__catalogue-btn {
+  position: absolute;
+  right: 0;
+  bottom: -3rem;
+  padding: 1rem;
+  width: 10rem;
+  height: 10rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  background: $primary;
+  text-decoration: none;
 }
 
-.product-section__catalogue-btn h3{
-  text-transform:uppercase;
-
-  font-size:1.4rem;
-  font-weight:bold;
-  color:#fff;
+.product-section__catalogue-btn h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
 }
 
-  /* Priority section */
+/* Priority section */
 
 .priority-section {
   padding: 5rem 1rem;
@@ -462,7 +463,7 @@
   }
 
   &__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     align-items: center;
   }
@@ -472,7 +473,7 @@
   }
 
   &__card {
-    width: calc(33.33333333333333% - 6rem);
+    width: calc(33.33333333333333% - 2rem);
     padding: 3rem 1rem;
     margin: 1rem;
     text-align: center;
@@ -495,7 +496,7 @@
   padding: 9rem 1rem;
 
   &__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
   }
 
@@ -524,7 +525,7 @@
   }
 
   &__card {
-    width: calc(33.33333333333333% - 12rem);
+    width: calc(33.33333333333333% - 4rem);
     min-width: 30rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
@@ -606,7 +607,7 @@
 
   &__inner {
     text-align: center;
-    max-width: 132rem;
+    max-width: 112.5rem;
     margin: 0 auto;
   }
 }
@@ -619,7 +620,7 @@
   &__inner {
     transform: skewY(7deg);
     text-align: center;
-    max-width: 132rem;
+    max-width: 112.5rem;
     margin: 0 auto;
   }
 
@@ -642,7 +643,7 @@
 
 
 .clients-section__inner {
-  max-width: 132rem;
+  max-width: 112.5rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -653,7 +654,7 @@
   margin: 5rem 5rem;
 
   &__inner {
-    max-width: 134.4rem;
+    max-width: 112.5rem;
     margin: 0 auto;
   }
 
@@ -733,7 +734,7 @@
   }
 
   &__inner {
-    max-width: 155.8rem;
+    max-width: 112.5rem;
     margin: 0 auto;
     padding: 1rem;
   }

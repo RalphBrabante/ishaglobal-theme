@@ -11,27 +11,27 @@
         <div class="col col-6">
             <div class="priority-section__cards inline">
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
                 <div class="priority-section__card">
-                    <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/icons_03.png"/>
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/icons_03.png"/>
                     <p>LICENSED & INSURED</p>
                 </div>
 

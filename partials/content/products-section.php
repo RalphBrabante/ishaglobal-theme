@@ -1,5 +1,5 @@
 <section class="products-section"
-         style="background:url('http://localhost/ishaglobal/wp-content/uploads/2021/04/macau-photo-agency-Rv3QXYUwiWw-unsplash.png'); background-position:center; background-size: cover; background-attachment: fixed">
+         style="background:url('<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/macau-photo-agency-Rv3QXYUwiWw-unsplash.png'); background-position:center; background-size: cover; background-attachment: fixed">
 
     <div class="products-section__inner">
         <h2>Our Products</h2>
@@ -19,7 +19,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -28,7 +28,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -37,7 +37,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -46,7 +46,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -55,7 +55,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -65,8 +65,8 @@
             </div>
 
         </div>
-        <div class="product-section__catalogue-btn">
-            <h3>Download Catalogue</h3>
-        </div>
+        <a href="<?php echo get_home_url(); ?>/products/" class="product-section__catalogue-btn">
+            <h3>View All Products</h3>
+        </a>
     </div>
 </section>

@@ -8,7 +8,7 @@ get_header();
 
     <div class="page-header"
          style="background:linear-gradient(to right bottom, rgba(171, 172, 173, .6), rgba(171, 172, 173, .6)), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
-        <h2 class="page-heading"><?php the_title() ?></h2>
+        <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
     <main class="page-main">
         <div class="breadcrumbs">
