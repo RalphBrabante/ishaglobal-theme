@@ -5,46 +5,36 @@
         <div class="what-we-offer-section__cards large-margin-top inline">
             <div class="what-we-offer-section__card">
                 <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
-                <h3>Residential Plumbing</h3>
-                <p>High expertise and experience in providing plumbing services for your home and residence. Our El
-                    Cajon plumbers are more than happy to answer all of your questions and concerns regarding any
-                    plumbing project or issue that you may have. We’ll walk you step-by-step and explain what we
-                    will do and how we can solve your issue. Providing flat-rate pricing, so you will know how much
-                    each job will cost before we begin. Respecting your property just as if it was ours. After each
-                    job, we clean-up the surrounding area where we worked to ensure it clean. All of our labor work
-                    comes with a workmanship guarantee and is in compliance with California’s plumbing code.
-                    Offering FREE estimates, so please give us a call at (619) 994 – 2616 to discuss your project.
-                    Thank you.</p>
+                <h3>Vector Control</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
             <div class="what-we-offer-section__card">
                 <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
-                <h3>Residential Plumbing</h3>
-                <p>High expertise and experience in providing plumbing services for your home and residence. Our El
-                    Cajon plumbers are more than happy to answer all of your questions and concerns regarding any
-                    plumbing project or issue that you may have. We’ll walk you step-by-step and explain what we
-                    will do and how we can solve your issue. </p>
+                <h3>Disinfection & Sanitation</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
+
             <div class="what-we-offer-section__card">
                 <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
-                <h3>Residential Plumbing</h3>
-                <p>High expertise and experience in providing plumbing services for your home and residence. Our El
-                    Cajon plumbers are more than happy to answer all of your questions and concerns regarding any
-                    plumbing project or issue that you may have. We’ll walk you step-by-step and explain what we
-                    will do and how we can solve your issue.</p>
+                <h3>Core Relief</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-            <div class="what-we-offer-section__card">
-                <img src="http://localhost/ishaglobal/wp-content/uploads/2021/04/res-plumbing_03.png"/>
-                <h3>Residential Plumbing</h3>
-                <p>High expertise and experience in providing plumbing services for your home and residence. Our El
-                    Cajon plumbers are more than happy to answer all of your questions and concerns regarding any
-                    plumbing project or issue that you may have. We’ll walk you step-by-step and explain what we
-                    will do and how we can solve your issue. Providing flat-rate pricing, so you will know how much
-                    each job will cost before we begin. Respecting your property just as if it was ours. After each
-                    job, we clean-up the surrounding area where we worked to ensure it clean. All of our labor work
-                    comes with a workmanship guarantee and is in compliance with California’s plumbing code.
-                    Offering FREE estimates, so please give us a call at (619) 994 – 2616 to discuss your project.
-                    Thank you.</p>
-            </div>
+
         </div>
     </div>
 </section>

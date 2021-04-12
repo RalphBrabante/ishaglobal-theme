@@ -1,3 +1,18 @@
 .no-box-shadow{
   box-shadow: none !important;
 }
+
+/* Breadcrumbs */
+.breadcrumbs{
+  margin-bottom:3rem;
+}
+
+
+/* Forminator */
+
+.forminator-custom-form input, .forminator-textarea{
+  background:#fff !important;
+  border:1px solid $primary !important;
+  padding:2rem 1rem !important;
+}
+

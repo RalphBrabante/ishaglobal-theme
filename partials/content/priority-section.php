@@ -2,9 +2,9 @@
     <div class="priority-section__inner inline">
         <div class="col col-4">
             <h2>OUR TOP PRIORITY TO OUR PLUMBING CUSTOMERS</h2>
-            <p>As a family small-business, our top priority and the highest aim is to offer complete satisfaction
-                and care to our beloved customers. Proudly serving our clients for over twenty-five years and aim to
-                sustain our quality. Striving to make every job a positive experience for the customer.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
             <a href="#" class="btn-call-to-action medium-margin-top">Learn More</a>
         </div>
 
