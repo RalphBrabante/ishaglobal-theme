@@ -36,6 +36,14 @@ body {
 .inline {
   display: flex; }
 
+.vertical-align-center {
+  display: flex;
+  align-items: center; }
+
+.horizontal-align-center {
+  display: flex;
+  justify-content: center; }
+
 /* COLUMNS */
 .col-2 {
   width: 20%; }
@@ -694,6 +702,9 @@ h4 {
 
 .img-responsive {
   width: 100%; }
+
+.large-equal-padding {
+  padding: 4rem; }
 
 @media only screen and (max-width: 1239px) {
   .top-info-v2__inner {
