@@ -12,6 +12,7 @@
                         only
                         guide and advise you on how to best execute FP&A in your organization, it will also
                         intelligently automate your processes elevating your FP&A process.</p>
+                    <a href="#" class="btn-call-to-action medium-margin-top">Learn More</a>
                 </div>
             </div>
             <div class="col col-5"
@@ -33,6 +34,7 @@
                         affordable consultant who will do all the leg work with high precision, recommend to you
                         best
                         practices in financial planning and analysis, and who will quality check your work.</p>
+                    <a href="#" class="btn-call-to-action medium-margin-top">Learn More</a>
                 </div>
             </div>
         </div>
@@ -48,6 +50,7 @@
                         only
                         guide and advise you on how to best execute FP&A in your organization, it will also
                         intelligently automate your processes elevating your FP&A process.</p>
+                    <a href="#" class="btn-call-to-action medium-margin-top">Learn More</a>
                 </div>
             </div>
             <div class="col col-5"
