@@ -2,7 +2,8 @@ html {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box;
@@ -248,7 +249,7 @@ h4 {
   border-bottom: 3px solid #fff !important; }
 
 .sub-menu .current-menu-item a {
-  border-bottom: 3px solid #5e86c8 !important; }
+  border-bottom: 3px solid transparent !important; }
 
 #menu-main-menu a:hover {
   color: #fff;
@@ -323,11 +324,10 @@ h4 {
 
 /* Our Products Section */
 .products-section {
-  background: black;
   padding: 5rem 1rem; }
   .products-section h2 {
     font-weight: 800;
-    color: #fff; }
+    text-transform: uppercase; }
 
 .products-section__inner {
   padding: 3rem;
@@ -337,19 +337,20 @@ h4 {
   position: relative; }
 
 .product-section__text-container {
+  background: #5e86c8;
   height: 25rem;
   width: 25rem;
   border-radius: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: #fff; }
+  align-items: center; }
 
 .priority-section__text-wrapper {
   max-width: 70%; }
   .priority-section__text-wrapper h3 {
     text-align: center;
-    font-weight: 800; }
+    font-weight: 800;
+    color: #fff; }
 
 .product-section__arrow-path {
   width: 181px;
@@ -412,7 +413,7 @@ h4 {
   align-items: center;
   justify-content: center;
   backface-visibility: hidden;
-  background: #fff; }
+  background: #5e86c8; }
 
 .product-section__card--back {
   border-radius: 100%;
@@ -454,20 +455,27 @@ h4 {
 /* Priority section */
 .priority-section {
   padding: 5rem 1rem; }
-  .priority-section .col-4 {
-    padding: 1rem 7rem; }
+  .priority-section .col {
+    padding: 1rem 1rem; }
   .priority-section__inner {
     max-width: 112.5rem;
-    margin: 0 auto;
-    align-items: center; }
+    margin: 0 auto; }
   .priority-section__cards {
     flex-wrap: wrap; }
   .priority-section__card {
-    width: calc(33.33333333333333% - 2rem);
+    width: calc(100% - 2rem);
     padding: 3rem 1rem;
     margin: 1rem;
     text-align: center;
     box-shadow: 0px 1px 5px 0px #ddd; }
+    .priority-section__card--three-cols {
+      width: calc(33.3333333333% - 2rem);
+      padding: 3rem 1rem;
+      margin: 1rem;
+      text-align: center;
+      box-shadow: 0px 1px 5px 0px #ddd;
+      display: flex;
+      align-items: center; }
 
 .get-started-section {
   text-align: center;
@@ -735,6 +743,12 @@ h4 {
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 0; }
+
+/* Fig Caption */
+figcaption {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem; }
 
 @keyframes arrowRotate {
   from {

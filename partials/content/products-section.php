@@ -1,6 +1,4 @@
-<section class="products-section"
-         style="background:url('<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/macau-photo-agency-Rv3QXYUwiWw-unsplash.png'); background-position:center; background-size: cover; background-attachment: fixed">
-
+<section class="products-section">
     <div class="products-section__inner">
         <h2>Our Products</h2>
         <div class="col-10 inline">
@@ -19,7 +17,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03-1.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -28,7 +26,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03-1.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -37,7 +35,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03-1.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -46,7 +44,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03-1.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>
@@ -55,7 +53,7 @@
                     <div class="product-section__card">
                         <div class="product-section__card--front">
                             <img class="img-responsive"
-                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03.png"/>
+                                 src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/res-plumbing_03-1.png"/>
                         </div>
                         <div class="product-section__card--back">
                             <h3>Text</h3>

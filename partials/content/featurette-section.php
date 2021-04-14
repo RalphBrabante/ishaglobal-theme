@@ -36,5 +36,24 @@
                 </div>
             </div>
         </div>
+        <div class="row inline">
+            <div class="col col-5 col-5-meta1">
+                <div class="featurette-section__meta">
+                    <h3>TO THE CFO</h3>
+                    <p>We ensure you get access to reliable and real-time insights, so you can make sound and
+                        strategic
+                        business decisions.</p>
+                    <p>Subscribing to our unified financial planning software and financial reporting & analysis
+                        software will be like employing 3 extra effective & specialized consultants that will not
+                        only
+                        guide and advise you on how to best execute FP&A in your organization, it will also
+                        intelligently automate your processes elevating your FP&A process.</p>
+                </div>
+            </div>
+            <div class="col col-5"
+                 style="background: url(<?php echo the_field('backgorund_image_3'); ?>); background-position:center; background-size: cover;">
+
+            </div>
+        </div>
     </div>
 </section>

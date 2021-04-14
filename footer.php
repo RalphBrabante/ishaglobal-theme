@@ -1,12 +1,6 @@
 
 <footer class="footer">
     <div class="footer__inner">
-        <div class="footer__header">
-            <div class="footer__image-container">
-                <img class="img-responsive" src="<?php echo get_home_url(); ?>/wp-content/uploads/2021/04/footer-logo.png" alt="White Footer Logo"/>
-            </div>
-        </div>
-
         <div class="footer__main inline">
             <div class="col-2">
                 <h4>Products and Solutions</h4>
@@ -101,26 +95,7 @@
             <p>Copyright © 2021 Isha Global Philippines | Privacy Policy | Web Design by Sysgage I.T. Solutions Co.</p>
         </div>
 
-        <div class="footer__social">
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri() . '/assets/media/SVG/facebook.svg'?>"/>
-            </a>
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri() . '/assets/media/SVG/twitter.svg'?>"/>
-            </a>
 
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri() . '/assets/media/SVG/youtube.svg'?>"/>
-            </a>
-
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri() . '/assets/media/SVG/vimeo.svg'?>"/>
-            </a>
-
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri() . '/assets/media/SVG/linkedin2.svg'?>"/>
-            </a>
-        </div>
     </div>
 
 

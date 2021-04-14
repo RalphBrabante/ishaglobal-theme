@@ -1,29 +1,37 @@
-.no-box-shadow{
+.no-box-shadow {
   box-shadow: none !important;
 }
 
 /* Breadcrumbs */
-.breadcrumbs{
-  margin-bottom:3rem;
+.breadcrumbs {
+  margin-bottom: 3rem;
 }
 
 
 /* Forminator */
 
-.forminator-custom-form input, .forminator-textarea{
-  background:#fff !important;
-  border:1px solid $primary !important;
-  padding:2rem 1rem !important;
+.forminator-custom-form input, .forminator-textarea {
+  background: #fff !important;
+  border: 1px solid $primary !important;
+  padding: 2rem 1rem !important;
 }
 
 
 /* WP Buttons */
 
-.wp-block-button__link{
-  background-color:$primary;
-  padding:1rem 2rem;
-  font-size:1.6rem;
-  text-transform:uppercase;
-  font-weight:600;
-  border-radius:0;
+.wp-block-button__link {
+  background-color: $primary;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+
+/* Fig Caption */
+figcaption {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
 }
