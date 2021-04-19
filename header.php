@@ -18,7 +18,7 @@
             ?>
         </div>
         <div class="col-8 header__contact">
-            <strong>Call Now to Schedule an Estimate</strong> (02) 0000-0000
+            <strong>Call Us</strong> (02) 0000-0000
         </div>
     </div>
     <div class="header__menu inline">

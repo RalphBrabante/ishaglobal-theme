@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Products Page
+ * Template Name: Why IGDC Template
  */
 get_header();
 
@@ -21,11 +21,14 @@ get_header();
             ?>
 
         </div>
-        <div class="products-categories">
+        <?php the_content(); ?>
+
+        <div class="core-valus-container">
+            <h3><strong>Our Core Values</strong></h3>
             <?php
 
             $args = array(
-                "post_type" => "product",
+                "post_type" => "core-values",
                 'orderby' => 'post_date',
                 'order' => 'ASC'
             );
@@ -34,26 +37,21 @@ get_header();
 
             // The Loop
             if ($the_query->have_posts()) {
-                echo '<div class="products__cards">';
                 while ($the_query->have_posts()) {
                     $the_query->the_post();
-                    echo '<a href="' . get_field('product_page_link') . '">';
-                    echo '<div class="products__card">';
-                    echo '<div class="products__card--front">';
-                    echo '<div class="product-inner-content">';
-                    echo '<img class="img-responsive" src="' . get_field('product_icon') . '"/>';
-                    echo '</div>';
-                    echo '</div>';
-                    echo '<div class="products__card--back">';
-                    echo '<div class="product-inner-content">';
-                    echo '<h2>' . get_the_title() . '</h2>';
-                    echo '</div>';
-                    echo '</div>';
-                    echo '</div>';
-                    echo '</a>';
+                    ?>
+                    <div class="row inline small-margin-top">
+                        <div class="col col-1 value-icon">
+                            <?php echo the_post_thumbnail(); ?>
+                        </div>
+                        <div class="col col-9">
+                            <?php echo the_content(); ?>
+                        </div>
+                    </div>
 
+
+                    <?php
                 }
-                echo '</div>';
             } else {
                 // no posts found
             }
@@ -61,7 +59,8 @@ get_header();
             wp_reset_postdata();
             ?>
         </div>
-        <?php the_content(); ?>
+
+
     </main>
 </div>
 

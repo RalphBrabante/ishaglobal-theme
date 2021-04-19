@@ -310,7 +310,7 @@
 
 .products-section__inner {
   padding: 3rem;
-  max-width: 100rem;
+  max-width: 89rem;
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -325,6 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .priority-section__text-wrapper {
@@ -334,6 +335,7 @@
     text-align: center;
     font-weight: 800;
     color: #fff;
+    font-size: 1.6rem;
 
   }
 }
@@ -378,14 +380,11 @@
 }
 
 
-.products-section .col-7 {
-  display: flex;
-  align-items: center;
-}
+
 
 .product-section__card {
-  height: 12rem;
-  width: 12rem;
+  height: 15rem;
+  width: 15rem;
   position: relative;
   transition: 1s;
   perspective: 800px;
@@ -394,13 +393,26 @@
   margin: 1rem;
 }
 
+.products-section__left{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.products-section__right{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:flex-start;
+}
+
 .product-section__card:hover {
   transform: rotateY(180deg);
 }
 
 .product-section__card--front {
   border-radius: 100%;
-  padding: 2rem;
+  padding: 3rem;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -433,15 +445,13 @@
 }
 
 .product-section__catalogue-btn {
-  position: absolute;
-  right: 0;
-  bottom: -3rem;
+  //position: absolute;
+  //right: 0;
+  //bottom: -3rem;
   padding: 1rem;
-  width: 10rem;
-  height: 10rem;
   background: #fff;
-  display: flex;
-  align-items: center;
+  //display: flex;
+  //align-items: center;
   background: $primary;
   text-decoration: none;
 }
@@ -845,6 +855,7 @@
   background-color: $primary;
   margin: .5rem;
   overflow: hidden;
+  transition: .5s;
 }
 
 #menu-products-menu li a {
@@ -853,7 +864,13 @@
   padding: 1rem;
   text-decoration: none;
   color: #fff;
+  transition: .5s;
 }
+
+#menu-products-menu li:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 
 #menu-products-menu .current-menu-item{
   background: orangered;
@@ -919,5 +936,18 @@
   padding:4rem;
   color:#fff;
   text-align:center;
+}
+
+/* Why IGDC Template */
+
+.value-icon img{
+  max-width:5rem;
+  height:auto;
+}
+
+.core-valus-container .col{
+  display:flex;
+  align-items:center;
+  padding:0 .5rem;
 }
 

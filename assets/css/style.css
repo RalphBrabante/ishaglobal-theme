@@ -55,6 +55,9 @@ body {
 .col-3 {
   width: 30%; }
 
+.col-3-5 {
+  width: 33.3333333%; }
+
 .col-4 {
   width: 40%; }
 
@@ -101,6 +104,10 @@ h4 {
 .page-main ul li {
   font-size: 1.6rem;
   line-height: 2.5rem; }
+
+/* WHY IGDC Paragraphs Size */
+.page-template-why-igdc-template p {
+  font-size: 1.7rem; }
 
 /* PAGE WRAPPER */
 .page-wrapper {
@@ -331,7 +338,7 @@ h4 {
 
 .products-section__inner {
   padding: 3rem;
-  max-width: 100rem;
+  max-width: 89rem;
   margin: 0 auto;
   text-align: center;
   position: relative; }
@@ -350,7 +357,8 @@ h4 {
   .priority-section__text-wrapper h3 {
     text-align: center;
     font-weight: 800;
-    color: #fff; }
+    color: #fff;
+    font-size: 1.6rem; }
 
 .product-section__arrow-path {
   width: 181px;
@@ -386,13 +394,9 @@ h4 {
   border-right: 6px solid orangered;
   border-bottom: 6px solid orangered; }
 
-.products-section .col-7 {
-  display: flex;
-  align-items: center; }
-
 .product-section__card {
-  height: 12rem;
-  width: 12rem;
+  height: 15rem;
+  width: 15rem;
   position: relative;
   transition: 1s;
   perspective: 800px;
@@ -400,12 +404,23 @@ h4 {
   border-radius: 100%;
   margin: 1rem; }
 
+.products-section__left {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.products-section__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; }
+
 .product-section__card:hover {
   transform: rotateY(180deg); }
 
 .product-section__card--front {
   border-radius: 100%;
-  padding: 2rem;
+  padding: 3rem;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -434,15 +449,8 @@ h4 {
   font-weight: 700; }
 
 .product-section__catalogue-btn {
-  position: absolute;
-  right: 0;
-  bottom: -3rem;
   padding: 1rem;
-  width: 10rem;
-  height: 10rem;
   background: #fff;
-  display: flex;
-  align-items: center;
   background: #5e86c8;
   text-decoration: none; }
 
@@ -710,14 +718,19 @@ h4 {
   align-items: center;
   background-color: #5e86c8;
   margin: .5rem;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: .5s; }
 
 #menu-products-menu li a {
   display: flex;
   align-items: center;
   padding: 1rem;
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  transition: .5s; }
+
+#menu-products-menu li:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
 
 #menu-products-menu .current-menu-item {
   background: orangered; }
@@ -775,6 +788,16 @@ h4 {
   color: #fff;
   text-align: center; }
 
+/* Why IGDC Template */
+.value-icon img {
+  max-width: 5rem;
+  height: auto; }
+
+.core-valus-container .col {
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem; }
+
 .small-margin-top {
   margin-top: 1rem; }
 
@@ -828,6 +851,15 @@ figcaption {
   text-align: center;
   font-weight: 600;
   font-size: 2rem; }
+
+.wp-block-image:not(.is-style-rounded) img {
+  height: auto; }
+
+.blocks-gallery-grid {
+  margin-left: 0 !important; }
+
+.page-main p:first-child {
+  margin-top: 0; }
 
 @keyframes arrowRotate {
   from {

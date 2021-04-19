@@ -35,3 +35,16 @@ figcaption {
   font-weight: 600;
   font-size: 2rem;
 }
+
+.wp-block-image:not(.is-style-rounded) img {
+  height: auto;
+}
+
+
+.blocks-gallery-grid{
+  margin-left:0 !important;
+}
+
+.page-main p:first-child{
+  margin-top:0;
+}

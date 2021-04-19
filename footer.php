@@ -2,92 +2,49 @@
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__main inline">
-            <div class="col-2">
-                <h4>Products and Solutions</h4>
+            <div class="col-3-5">
+                <h4>Why IGDC?</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Overview</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Mission & Vision</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Core Values</a>
                     </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
+
                 </ul>
             </div>
-            <div class="col-2">
-                <h4>Pricing</h4>
+            <div class="col-3-5">
+                <h4>Products</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Vector Control</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Disinfection & Sanitation</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="#" class="unordered-list__link">Core Relief</a>
                     </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
+
                 </ul>
             </div>
-            <div class="col-2">
-                <h4>The Company</h4>
+            <div class="col-3-5">
+                <h4>Contact Info</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="tel:+63910999000" class="unordered-list__link">+63910999000</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
+                        <a href="mailto:info@igdc.com.ph" class="unordered-list__link">info@igdc.com.ph</a>
                     </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <h4>Learn</h4>
-                <ul class="unordered-list">
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
+
                 </ul>
             </div>
 
-            <div class="col-2">
-                <h4>Performance Canvas Capabilities</h4>
-                <ul class="unordered-list">
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Menu Link</a>
-                    </li>
-                </ul>
-            </div>
 
         </div>
 

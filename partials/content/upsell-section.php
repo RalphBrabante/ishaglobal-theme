@@ -4,7 +4,7 @@
     <div class="upsell-section__col col-4">
         <div class="upsell-section__message">
             <h2>READY TO MOVE YOUR BUDGETING AND REPORTING PROCESS TO THE CLOUD?</h2>
-            <a href="#" class="btn-call-to-action large-margin-top">Request a Free Trial</a>
+            <a href="#" class="btn-call-to-action large-margin-top">Talk to Us</a>
         </div>
     </div>
 </section>
