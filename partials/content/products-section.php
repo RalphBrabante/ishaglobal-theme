@@ -55,13 +55,14 @@
 
                 </div>
                 <a href="<?php echo get_home_url(); ?>/products/"
-                   class="product-section__catalogue-btn small-margin-top">
+                   class="btn btn-orange small-margin-top">
                     <h3>View All Products</h3>
                 </a>
             </div>
 
         </div>
         <div class="products-section__carousel">
+            <h2 class="large-margin-top">Our Trusted Partners</h2>
             <?php echo do_shortcode('[sp_wpcarousel id="55"]'); ?>
         </div>
 
