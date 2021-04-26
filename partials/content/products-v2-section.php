@@ -1,16 +1,14 @@
-<section class="products-section"
-         style="background:linear-gradient(to bottom,transparent 40%, white 90%), url('http://localhost/ishaglobal/wp-content/uploads/2021/04/about-2.jpg'); background-position:center; background-size: cover;">
-    <div class="products-section__inner">
+<section class="products-section-v2"
+         style="background: url('http://localhost/ishaglobal/wp-content/uploads/2021/04/DSC00074.jpg'); background-position:center; background-size: cover;">
+    <div class="products-section-v2__inner">
         <h2>Our Products</h2>
         <div class="col-10 inline large-margin-top">
-            <div class="col-3 products-section__left">
-                <div class="product-section__text-container">
-                    <div class="priority-section__text-wrapper">
+            <div class="col-3 products-section-v2__left">
+                <div class="product-section-v2__text-container">
+                    <div class="priority-section-v2__text-wrapper">
                         <h3>While we specialize in Vector Control, our philosophy and industry partnerships advocate a
                             forward-thinking approach to public health and safety.</h3>
                     </div>
-                    <div class="product-section__arrow-path"></div>
-                    <div class="product-section__arrow-path-2"></div>
                 </div>
             </div>
             <div class="col-7 products-section__right">
@@ -32,12 +30,12 @@
                         while ($the_query->have_posts()) {
                             $the_query->the_post();
                             ?>
-                            <div class="product-section__card">
-                                <div class="product-section__card--front">
+                            <div class="product-section-v2__card">
+                                <div class="product-section-v2__card--front">
                                     <img class="img-responsive"
                                          src="<?php echo get_field('product_icon'); ?>"/>
                                 </div>
-                                <div class="product-section__card--back">
+                                <div class="product-section-v2__card--back">
                                     <h3><?php echo the_title(); ?></h3>
                                 </div>
                             </div>
