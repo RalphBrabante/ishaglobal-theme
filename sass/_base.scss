@@ -1,6 +1,9 @@
-$nav-text-color: #474747;
+$nav-text-color: #000;
 $primary: #5e86c8;
 $footer-bg-color: #222222;
+$dark-blue: #021059;
+$grey-bg: #f2f2f2;
+$yellow: #ff9d14;
 
 html {
   padding: 0;
@@ -8,6 +11,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 body {
