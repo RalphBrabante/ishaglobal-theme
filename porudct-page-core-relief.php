@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Product Page for Vector Control
+ * Template Name: Core Relief
  */
 
 get_header();
@@ -29,15 +29,13 @@ get_header();
                 <?php wp_nav_menu(array('theme_location' => 'products-menu')); ?>
             </div>
         </div>
-
-        <?php get_template_part('partials/content/products-vector-control', 'section'); ?>
+        <?php get_template_part('partials/content/priority', 'section'); ?>
     </main>
-
     <section class="featured-products">
         <h2 style="text-align: center">Featured Products</h2>
-            <?php
-            echo do_shortcode('[smartslider3 slider="3"]');
-            ?>
+        <?php
+        echo do_shortcode('[smartslider3 slider="5"]');
+        ?>
     </section>
 
 </div>

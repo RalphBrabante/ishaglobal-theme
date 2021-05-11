@@ -1,67 +1,74 @@
-<section class="products-section"
-         style="background:linear-gradient(to bottom,transparent 40%, white 90%), url('http://localhost/ishaglobal/wp-content/uploads/2021/04/about-2.jpg'); background-position:center; background-size: cover;">
-    <div class="products-section__inner">
-        <h2>Our Products</h2>
-        <div class="col-10 inline large-margin-top">
-            <div class="col-3 products-section__left">
-                <div class="product-section__text-container">
-                    <div class="priority-section__text-wrapper">
-                        <h3>While we specialize in Vector Control, our philosophy and industry partnerships advocate a
-                            forward-thinking approach to public health and safety.</h3>
-                    </div>
-                    <div class="product-section__arrow-path"></div>
-                    <div class="product-section__arrow-path-2"></div>
-                </div>
-            </div>
-            <div class="col-7 products-section__right">
-                <div class="products-section__cards inline">
-
-                    <?php
-
-                    $args = array(
-                        "post_type" => "product",
-                        'orderby' => 'post_date',
-                        'order' => 'ASC'
-                    );
-                    // The Query
-                    $the_query = new WP_Query($args);
-
-                    // The Loop
-                    if ($the_query->have_posts()) {
-                        echo '<div class="products__cards">';
-                        while ($the_query->have_posts()) {
-                            $the_query->the_post();
-                            ?>
-                            <div class="product-section__card">
-                                <div class="product-section__card--front">
-                                    <img class="img-responsive"
-                                         src="<?php echo get_field('product_icon'); ?>"/>
-                                </div>
-                                <div class="product-section__card--back">
-                                    <h3><?php echo the_title(); ?></h3>
-                                </div>
-                            </div>
-                            <?php
-
-                        }
-                        echo '</div>';
-                    } else {
-                        // no posts found
-                    }
-                    /* Restore original Post Data */
-                    wp_reset_postdata();
-                    ?>
-
-
-                </div>
-                <a href="<?php echo get_home_url(); ?>/products/"
-                   class="btn btn-orange small-margin-top">
-                    <h3>View All Products</h3>
-                </a>
-            </div>
+<section class="products-section">
+    <div class="products-section__header">
+        <div class="products-section__inner">
+            <h2>Our Products</h2>
+            <p>Our linkages with the industry’s leading names underline our commitment to providing only the
+                highest-quality measures in protecting human lives and raising the quality of life among communities.
+                Moreover, our science-based solutions evolve with every innovation developed by the industry - ensuring
+                our customers receive the latest in vector control management.
+            </p>
 
         </div>
-
-
     </div>
+
+    <div class="products-section__row"
+         style="background: linear-gradient(to left, white 30%, transparent 70%), url(<?php echo the_field('product_1'); ?>)no-repeat center center fixed; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+        <div class="products-section__inner inline">
+            <div class="col-4">
+
+            </div>
+            <div class="col-6">
+                <div class="products-section__details">
+                    <h2>Vector Control</h2>
+                    <p>We specialize in Vector Control measures which aim to minimize the risk of catching disease
+                        spread by common vectors like mosquitoes.
+                        Our team of specialists can recommend the right type of vector control solution based on the
+                        identified needs and ensure that IVM guidelines are understood and implemented.
+                    </p>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-section__row"
+         style="background: linear-gradient(to right, white 30%, transparent 70%), url(<?php echo the_field('product_2'); ?>)no-repeat center center fixed; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+        <div class="products-section__inner inline">
+            <div class="col-4">
+                <div class="products-section__details">
+                    <h2>Disinfection & Sanitation</h2>
+                    <p>Our disinfecting and sanitizing measures cover protection beyond COVID-19. Our team is
+                        well-equipped to provide customers with a safe and thorough disinfection and sanitation
+                        solution. Now more than ever, it is a top priority to maintain human spaces as clean and
+                        pathogen-free as possible.</p>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                </div>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="products-section__row"
+         style="background: linear-gradient(to left, white 30%, transparent 70%), url(<?php echo the_field('product_3'); ?>)no-repeat center center fixed; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+        <div class="products-section__inner inline">
+            <div class="col-4">
+
+            </div>
+            <div class="col-6">
+                <div class="products-section__details">
+                    <h2>Core Relief</h2>
+                    <p>Our partnership with NRS Relief consists of providing products that can augment essential relief
+                        toolkits for various emergency response situations. NRS Relief managed to supply core relief
+                        essentials (treatment shelters, protective equipment) for a range of COVID-19 emergency response
+                        efforts. These solutions proved key to bolstering the operations of NGOs and international
+                        organizations focused on fighting the coronavirus pandemic.</p>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </section>

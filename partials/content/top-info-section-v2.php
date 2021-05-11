@@ -15,7 +15,7 @@
     </section>
     <section class="top-info-v2__footer">
         <div class="top-info-v2__footer__inner">
-            <h2>We help prevent the spread of vector-borne and viral diseases in the Philippines</h2>
+            <h2>We inspire Filipinos to live in a healthy environment by providing solutions in preventing the spread of vector-borne and other viral diseases in the country</h2>
         </div>
     </section>
 </section>
