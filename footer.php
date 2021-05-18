@@ -1,8 +1,7 @@
-
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__main inline">
-            <div class="col-3-5">
+            <div class="col-2-5">
                 <h4>Why IGDC?</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
@@ -17,7 +16,7 @@
 
                 </ul>
             </div>
-            <div class="col-3-5">
+            <div class="col-2-5">
                 <h4>Products</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
@@ -32,20 +31,26 @@
 
                 </ul>
             </div>
-            <div class="col-3-5">
+            <div class="col-2-5">
                 <h4>Contact Info</h4>
                 <ul class="unordered-list">
                     <li class="unordered-list__item">
-                        <a href="tel:+63910999000" class="unordered-list__link">+63910999000</a>
+                        <a href="tel:+63270015487" class="unordered-list__link">Phone: +63270015487</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="mailto:info@igdc.com.ph" class="unordered-list__link">info@igdc.com.ph</a>
+                        <a href="tel:+639178844742" class="unordered-list__link">Mobile: +639178844742 (ISHA)</a>
+                    </li>
+                    <li class="unordered-list__item">
+                        <a href="mailto:info@igdc.com.ph" class="unordered-list__link">Email: info@igdc.com.ph</a>
                     </li>
 
                 </ul>
             </div>
 
-
+            <div class="col-2-5">
+                <h4>Office Address</h4>
+                <p>Unit 1002 Alabang Business Tower, 1216 Acacia Avenue, Madrigal Business Park, Ayala Alabang, Muntinlupa City 1780 Philippines</p>
+            </div>
         </div>
 
         <div class="footer__copyright">
@@ -56,8 +61,7 @@
     </div>
 
 
-
-<?php wp_footer(); ?>
+    <?php wp_footer(); ?>
 
 </footer>
 

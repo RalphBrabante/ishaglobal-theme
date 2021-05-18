@@ -1,11 +1,11 @@
 /* HEADER */
 .header {
-
-
   position: fixed;
   width: 100%;
   z-index: 9999999;
   padding: 2rem 1rem;
+  background: white;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 
   &__contact {
     text-align: right;
@@ -163,11 +163,11 @@
 
 #menu-main-menu li a {
   padding: 3rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   text-decoration: none;
   color: $nav-text-color;
-  transition: .3s;
+  transition: .3s ease-out;
   font-weight: 600;
   border-bottom: 3px solid transparent;
 }
@@ -276,7 +276,7 @@
 /* Priority section */
 
 .priority-section {
-  margin-top:4rem;
+  margin-top: 4rem;
   padding: 1rem 1rem;
 
   & .col {
@@ -298,14 +298,13 @@
     padding: 3rem 1rem;
     margin: 1rem;
     text-align: center;
-    box-shadow: 0px 1px 5px 0px #ddd;
+    //box-shadow: 0px 1px 5px 0px #ddd;
 
     &--three-cols {
       width: calc(33.3333333333% - 2rem);
-      padding: 3rem 1rem;
       margin: 1rem;
       text-align: center;
-      box-shadow: 0px 1px 5px 0px #ddd;
+      //box-shadow: 0px 1px 5px 0px #ddd;
       display: flex;
       align-items: center;
     }
@@ -381,9 +380,6 @@
 
 /* Featurette Section  */
 
-.solutions-section {
-  padding: 2rem 0;
-}
 
 .solutions-section__inner .row {
   background-color: $grey-bg;
@@ -426,7 +422,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.solutions-home-img--ds{
+.solutions-home-img--ds {
   display: none;
 }
 
@@ -438,11 +434,13 @@ button.solutions-btn-set__active {
   background-color: #f2f2f2;
 }
 
+
 button.overview-btn-set__active {
   font-weight: bold;
   cursor: auto;
   box-shadow: none !important;
-  background-color: #f2f2f2 !important;
+  background-color: $yellow !important;
+  color: white;
 }
 
 .col-5-meta1 {
@@ -819,9 +817,23 @@ button.overview-btn-set__active {
 /* Products Section */
 
 .products-section {
+
+  &__details {
+
+    &--right {
+      display: flex;
+      flex-direction: column;
+
+      & a {
+        margin-left: auto;
+      }
+    }
+
+  }
+
   &__header {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 7rem 1rem;
   }
 
   &__row {
@@ -836,7 +848,7 @@ button.overview-btn-set__active {
 
 /* Why IGDC Template */
 
-.trusted-partners-section__text{
+.trusted-partners-section__text {
   display: none;
 }
 
@@ -883,29 +895,32 @@ button.overview-btn-set__active {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.overview-section__btn-set + p{
-  margin-top:4rem !important;
+.overview-section__btn-set + p {
+  margin-top: 4rem !important;
 }
 
-.overview-section__btn-set{
-  position:absolute;
-  display:flex;
-  left:50%;
-  transform:translate(-50%, -75%);
+.overview-section__btn-set {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, -75%);
 }
 
-.overview-section__btn-set button{
-  padding:1rem;
-  cursor:pointer;
-  border:none;
-  background:#fff;
+.overview-section__btn-set button {
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  background: #f2f2f2;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.overview-section__btn-set button:first-child{
-  margin-right:1rem;
+.overview-section__btn-set button:first-child {
+  margin-right: 1rem;
 }
 
+#trusted-partners-right-img {
+  display: none;
+}
 
 .mission-vision {
   padding: 15rem 1rem
@@ -927,24 +942,28 @@ button.overview-btn-set__active {
 
 .mission-vision__text-container {
   text-align: center;
+
+  & p:first-of-type {
+    margin-bottom: 8rem;
+  }
 }
 
-.section-tab{
-  font-size:1.7rem !important;
+.section-tab {
+  font-size: 1.7rem !important;
 }
 
-.section-tab{
+.section-tab {
   background: #fff;
-  border:none;
+  border: none;
 }
 
-.overview-trusted-partners__inner{
-  max-width:115rem;
-  margin:0 auto;
-  padding:2rem 0rem;
+.overview-trusted-partners__inner {
+  max-width: 115rem;
+  margin: 0 auto;
+  padding: 2rem 0rem;
 }
 
-.wpcp-wrapper-55{
+.wpcp-wrapper-55 {
   display: none;
 }
 
@@ -972,7 +991,7 @@ button.overview-btn-set__active {
 
 .trusted-partners-section {
   max-width: 112.5rem;
-  margin: 6rem auto;
+  margin: 8rem auto;
 
   & h2 {
     font-weight: bold;
@@ -1013,9 +1032,27 @@ button.overview-btn-set__active {
 /* Featured Products */
 
 .featured-products {
-  margin-top:1.5rem;
-  padding: 2rem;
+  margin-top: 2.5rem;
   background: #f2f2f2;
+  position: relative;
+
+  & h2 {
+    position: absolute;
+    z-index: 99999;
+    left: 25%;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+    background: #021059;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  &__inner {
+    max-width: 115rem;
+    margin: 0 auto;
+    position: relative;
+  }
+
 }
 
 .featured-products .n2-ss-section-main-content {
@@ -1024,5 +1061,10 @@ button.overview-btn-set__active {
 
 .n2-ss-layer {
   font-family: 'Quicksand', sans-serif;
+}
+
+
+.solutions-home-img {
+  transition: 2s
 }
 

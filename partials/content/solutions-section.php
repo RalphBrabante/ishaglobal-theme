@@ -34,7 +34,7 @@
             <div class="row__inner inline">
                 <div class="col col-5 col-5-meta1">
                     <div class="solutions-btn-set">
-                        <button>Disaster Preparedness</button>
+                        <button class="">Disaster Preparedness</button>
                     </div>
                     <div class="solutions-section__meta">
                         <?php the_field('home_solutions_dp_text'); ?>

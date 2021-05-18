@@ -18,14 +18,14 @@
 
             </div>
             <div class="col-6">
-                <div class="products-section__details">
+                <div class="products-section__details  products-section__details--right">
                     <h2>Vector Control</h2>
                     <p>We specialize in Vector Control measures which aim to minimize the risk of catching disease
                         spread by common vectors like mosquitoes.
                         Our team of specialists can recommend the right type of vector control solution based on the
                         identified needs and ensure that IVM guidelines are understood and implemented.
                     </p>
-                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">View Products</a>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                         well-equipped to provide customers with a safe and thorough disinfection and sanitation
                         solution. Now more than ever, it is a top priority to maintain human spaces as clean and
                         pathogen-free as possible.</p>
-                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">View Products</a>
                 </div>
             </div>
             <div class="col-6">
@@ -57,14 +57,14 @@
 
             </div>
             <div class="col-6">
-                <div class="products-section__details">
+                <div class="products-section__details products-section__details--right">
                     <h2>Core Relief</h2>
                     <p>Our partnership with NRS Relief consists of providing products that can augment essential relief
                         toolkits for various emergency response situations. NRS Relief managed to supply core relief
                         essentials (treatment shelters, protective equipment) for a range of COVID-19 emergency response
                         efforts. These solutions proved key to bolstering the operations of NGOs and international
                         organizations focused on fighting the coronavirus pandemic.</p>
-                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">Learn More</a>
+                    <a href="http://google.com" class="btn-call-to-action medium-margin-top">View Products</a>
                 </div>
             </div>
         </div>

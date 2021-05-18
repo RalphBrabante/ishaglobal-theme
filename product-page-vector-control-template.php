@@ -10,7 +10,7 @@ get_header();
 <div class="page-wrapper">
 
     <div class="page-header"
-         style="background:linear-gradient(to right bottom, rgba(171, 172, 173, .6), rgba(171, 172, 173, .6)), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
+         style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
         <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
     <main class="page-main">
@@ -25,7 +25,6 @@ get_header();
                 </div>
             </div>
             <div class="col-5">
-
                 <?php wp_nav_menu(array('theme_location' => 'products-menu')); ?>
             </div>
         </div>
@@ -34,10 +33,13 @@ get_header();
     </main>
 
     <section class="featured-products">
-        <h2 style="text-align: center">Featured Products</h2>
+        <div class="featured-products__inner">
+            <h2>Featured Products</h2>
             <?php
             echo do_shortcode('[smartslider3 slider="3"]');
             ?>
+        </div>
+
     </section>
 
 </div>

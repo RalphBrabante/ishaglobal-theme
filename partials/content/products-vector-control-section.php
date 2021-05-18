@@ -7,6 +7,7 @@
         <div class="col col-5">
             <h2><?php the_title(); ?></h2>
             <?php the_content(); ?>
+
             <div class="priority-section__cards priority-section__cards inline">
                 <div class="priority-section__card--three-cols">
                     <img class="img-responsive" src="<?php echo the_field('trusted_partner_1'); ?>"/>

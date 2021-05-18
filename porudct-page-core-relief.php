@@ -10,7 +10,7 @@ get_header();
 <div class="page-wrapper">
 
     <div class="page-header"
-         style="background:linear-gradient(to right bottom, rgba(171, 172, 173, .6), rgba(171, 172, 173, .6)), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
+         style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
         <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
     <main class="page-main">
@@ -32,10 +32,12 @@ get_header();
         <?php get_template_part('partials/content/priority', 'section'); ?>
     </main>
     <section class="featured-products">
-        <h2 style="text-align: center">Featured Products</h2>
-        <?php
-        echo do_shortcode('[smartslider3 slider="5"]');
-        ?>
+        <div class="featured-products__inner">
+            <h2 style="text-align: center">Featured Products</h2>
+            <?php
+            echo do_shortcode('[smartslider3 slider="5"]');
+            ?>
+        </div>
     </section>
 
 </div>

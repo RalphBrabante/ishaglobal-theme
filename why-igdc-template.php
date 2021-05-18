@@ -9,7 +9,7 @@ get_header();
 <div class="page-wrapper">
 
     <div class="page-header"
-         style="background:linear-gradient(to right bottom, rgba(171, 172, 173, .6), rgba(171, 172, 173, .6)), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
+         style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
         <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
     <main class="page-main">
@@ -38,10 +38,12 @@ get_header();
 
                 <div class="trusted-partners-section__text large-margin-top">
                     <?php the_field('trusted_partners_text') ?>
+                    <?php echo do_shortcode('[sp_wpcarousel id="462"]'); ?>
                 </div>
             </div>
             <div class="col-5 overview-section-img-container">
-                <img class="solutions-home-img" src="<?php the_field('overview_image') ?>">
+                <img class="solutions-home-img" id="overview-right-img" src="<?php the_field('overview_image') ?>">
+                <img class="solutions-home-img" id="trusted-partners-right-img" src="<?php the_field('trusted_partners_image') ?>">
             </div>
         </div>
 
