@@ -145,8 +145,10 @@ h4 {
   background: white;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; }
   .header__contact {
+    display: flex;
     text-align: right;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    justify-items: center; }
   .header__menu {
     bottom: 0;
     white-space: nowrap;
@@ -949,7 +951,7 @@ button.overview-btn-set__active {
 
 .management-section {
   background: #f2f2f2;
-  margin-bottom: 35rem; }
+  margin-bottom: 40rem; }
   .management-section h2 {
     text-transform: uppercase;
     text-align: center;
@@ -994,6 +996,66 @@ button.overview-btn-set__active {
     .management-section__row--3 {
       background: #f2f2f2; }
 
+.mobile-menu-btn {
+  border: 1px solid #021059;
+  width: 5rem;
+  height: 5rem;
+  align-self: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-left: auto;
+  display: none;
+  flex-direction: column; }
+  .mobile-menu-btn__line {
+    width: 100%;
+    border: 1px solid #021059;
+    align-items: center; }
+    .mobile-menu-btn__line:not(:first-child) {
+      margin-top: 1rem; }
+
+.sidebar {
+  display: none;
+  position: fixed;
+  right: -70%;
+  width: 70%;
+  height: 100%;
+  background: #021059;
+  z-index: 9999999;
+  transition: 0.5s; }
+  .sidebar__close-btn {
+    padding: 3rem;
+    cursor: pointer;
+    color: #fff; }
+    .sidebar__close-btn:hover > svg {
+      border-radius: 1rem;
+      background: #fff; }
+    .sidebar__close-btn:hover svg path {
+      fill: #021059; }
+  .sidebar ul {
+    list-style: none; }
+    .sidebar ul li {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%; }
+      .sidebar ul li a {
+        position: relative;
+        font-size: 2rem;
+        color: #fff;
+        width: 100%;
+        padding: 1rem 2rem;
+        text-decoration: none; }
+      .sidebar ul li .sub-menu {
+        position: relative;
+        display: block;
+        width: 100%;
+        flex-direction: column; }
+        .sidebar ul li .sub-menu li {
+          padding: 1rem 2rem; }
+          .sidebar ul li .sub-menu li a {
+            color: #021059; }
+
 .small-margin-top {
   margin-top: 1rem; }
 
@@ -1024,7 +1086,56 @@ button.overview-btn-set__active {
 
 @media only screen and (max-width: 1125px) {
   .header__menu {
-    width: 100%; } }
+    width: 100%; }
+  .mobile-menu-btn {
+    display: flex; }
+  .sidebar {
+    display: block; }
+  #menu-main-menu {
+    display: none; }
+  .top-info-v2__inner {
+    margin-top: 5rem; }
+  .top-info-v2__footer {
+    padding: 1rem; } }
+
+@media only screen and (max-width: 1026px) {
+  .solutions-section__inner > .row:nth-of-type(1) {
+    background: red; }
+  .solutions-section .row__inner {
+    flex-direction: column; }
+    .solutions-section .row__inner .col-5-meta2-img img {
+      position: relative; }
+    .solutions-section .row__inner .col-5 {
+      width: 100%;
+      justify-content: center; }
+  .row-2 .row__inner {
+    flex-direction: column-reverse !important; } }
+
+@media only screen and (max-width: 1000px) {
+  .products-section__inner .col-4 {
+    display: none; }
+  .products-section__col {
+    width: 100%; }
+  .upsell-section__inner {
+    flex-direction: column; }
+  .upsell-section__col {
+    width: 100%; }
+  .upsell-section__message {
+    max-width: 100%;
+    margin: 0;
+    text-align: center; }
+  .footer__main {
+    flex-wrap: wrap; }
+    .footer__main .col-2-5 {
+      padding: 1rem;
+      min-width: 25rem;
+      flex-grow: 1; } }
+
+@media only screen and (max-width: 811px) {
+  .solutions-btn-set {
+    margin: 1rem 0; }
+  .solutions-section p:first-child {
+    margin-top: 3rem; } }
 
 .no-box-shadow {
   box-shadow: none !important; }

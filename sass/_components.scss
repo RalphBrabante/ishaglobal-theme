@@ -8,8 +8,10 @@
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 
   &__contact {
+    display: flex;
     text-align: right;
     font-size: 1.6rem;
+    justify-items: center;
   }
 
   &__menu {
@@ -1088,7 +1090,7 @@ button.overview-btn-set__active {
 
 .management-section {
   background: $grey-bg;
-  margin-bottom: 35rem;
+  margin-bottom: 40rem;
 
   & h2 {
     text-transform: uppercase;
@@ -1152,6 +1154,90 @@ button.overview-btn-set__active {
     }
     &--3 {
       background: $grey-bg;
+    }
+  }
+}
+
+//Mobile Menu
+
+.mobile-menu-btn {
+  border: 1px solid $primary;
+  width: 5rem;
+  height: 5rem;
+  align-self: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-left: auto;
+  display: none;
+
+  flex-direction: column;
+  &__line {
+    width: 100%;
+    border: 1px solid $primary;
+    align-items: center;
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+  }
+}
+
+//Sidebar
+
+.sidebar {
+  display: none;
+  position: fixed;
+  right: -70%;
+  width: 70%;
+  height: 100%;
+  background: $primary;
+  z-index: 9999999;
+  transition: 0.5s;
+
+  &__close-btn {
+    padding: 3rem;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover > svg {
+      border-radius: 1rem;
+      background: #fff;
+    }
+
+    &:hover svg path {
+      fill: $primary;
+    }
+  }
+
+  & ul {
+    list-style: none;
+    & li {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+
+      & a {
+        position: relative;
+        font-size: 2rem;
+        color: #fff;
+        width: 100%;
+        padding: 1rem 2rem;
+        text-decoration: none;
+      }
+
+      & .sub-menu {
+        position: relative;
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        & li {
+          padding: 1rem 2rem;
+          & a {
+            color: $primary;
+          }
+        }
+      }
     }
   }
 }

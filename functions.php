@@ -48,3 +48,5 @@ add_action('after_setup_theme', 'themename_custom_logo_setup');
 // Post Thumbnails
 add_theme_support('post-thumbnails');
 
+
+add_theme_support('title-tag');

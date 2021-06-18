@@ -10,10 +10,8 @@
         <div class="row extra-large-margin-top">
             <div class="row__inner inline">
                 <div class="col col-5 col-5-meta2-img">
-                    <img class="solutions-home-img solutions-home-img--vc"
-                         src="<?php the_field('home_solutions_vc_image'); ?>">
-                    <img class="solutions-home-img solutions-home-img--ds"
-                         src="<?php the_field('home_solutions_ds_image'); ?>">
+                    <img class="solutions-home-img solutions-home-img--vc img-responsive" src="<?php the_field('home_solutions_vc_image'); ?>">
+                    <img class="solutions-home-img solutions-home-img--ds img-responsive" src="<?php the_field('home_solutions_ds_image'); ?>">
                 </div>
                 <div class="col col-5 col-5-meta2">
                     <div class="solutions-btn-set">
@@ -30,7 +28,7 @@
             </div>
 
         </div>
-        <div class="row extra-large-margin-top">
+        <div class="row row-2 extra-large-margin-top">
             <div class="row__inner inline">
                 <div class="col col-5 col-5-meta1">
                     <div class="solutions-btn-set">
@@ -41,8 +39,7 @@
                     </div>
                 </div>
                 <div class="col col-5 col-5-meta2-img">
-                    <img class="solutions-home-img"
-                         src="<?php the_field('home_solutions_dp_image'); ?>">
+                    <img class="solutions-home-img img-responsive" src="<?php the_field('home_solutions_dp_image'); ?>">
                 </div>
             </div>
         </div>

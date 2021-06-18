@@ -6,9 +6,110 @@
   }
 }
 
-
 @media only screen and (max-width: 1125px) {
-  .header__menu{
+  .header__menu {
     width: 100%;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  #menu-main-menu {
+    display: none;
+  }
+
+  .top-info-v2 {
+    &__inner {
+      margin-top: 5rem;
+    }
+
+    &__footer {
+      padding: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .solutions-section {
+    &__inner {
+      & > .row:nth-of-type(1) {
+        background: red;
+      }
+    }
+    & .row__inner {
+      flex-direction: column;
+
+      & .col-5-meta2-img img {
+        position: relative;
+      }
+      & .col-5 {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+
+  .row-2 {
+    & .row__inner {
+      flex-direction: column-reverse !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .products-section {
+    &__inner {
+      & .col-4 {
+        display: none;
+      }
+    }
+    &__col {
+      width: 100%;
+    }
+  }
+
+  .upsell-section {
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__col {
+      width: 100%;
+    }
+
+    &__message {
+      max-width: 100%;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .footer {
+    &__main {
+      flex-wrap: wrap;
+
+      & .col-2-5 {
+        padding: 1rem;
+        min-width: 25rem;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 811px) {
+  .solutions-btn-set {
+    margin: 1rem 0;
+  }
+
+  .solutions-section {
+    & p:first-child {
+      margin-top: 3rem;
+    }
   }
 }

@@ -98,3 +98,13 @@ jQuery("#trusted-partners-btn").click(function () {
     jQuery("#trusted-partners-right-img").fadeIn(200);
   });
 });
+
+//Menu Script
+
+jQuery(".mobile-menu-btn").click(function () {
+  jQuery(".sidebar").css({ right: 0 });
+});
+
+jQuery(".sidebar__close-btn").click(function () {
+  jQuery(".sidebar").css({ right: "-70%" });
+});
