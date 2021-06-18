@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Why IGDC Template
  */
@@ -8,8 +9,7 @@ get_header();
 
 <div class="page-wrapper">
 
-    <div class="page-header"
-         style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
+    <div class="page-header" style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
         <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
     <main class="page-main">
@@ -24,12 +24,12 @@ get_header();
         <?php the_content(); ?>
 
     </main>
-    <section class="overview-section extra-large-margin-top">
+    <section class="overview-section extra-large-margin-top" id="overview">
 
         <div class="overview-section__inner inline">
             <div class="col-5">
                 <div class="overview-section__btn-set">
-                    <button id="overview-btn" class="section-tab overview-btn-set__active">Overview</button>
+                    <button id="overview-btn" class="section-tab overview-btn-set__active"><?php the_field('overview_heading'); ?></button>
                     <button id="trusted-partners-btn" class="section-tab">Trusted Partners</button>
                 </div>
                 <div class="overview-section__text large-margin-top">
@@ -46,32 +46,36 @@ get_header();
                 <img class="solutions-home-img" id="trusted-partners-right-img" src="<?php the_field('trusted_partners_image') ?>">
             </div>
         </div>
-
     </section>
 
-    <section class="mission-vision">
+    <?php get_template_part('partials/content/founders', 'section'); ?>
+
+    <?php get_template_part('partials/content/management', 'section'); ?>
+
+    <section class="mission-vision" id="mv">
         <div class="mission-vision__inner inline">
             <div class="col-5 mission-vision__left-image-container">
-                <img src="<?php the_field('mv_left_image'); ?>"/>
+                <img src="<?php the_field('mv_left_image'); ?>" />
             </div>
             <div class="col-5 mission-vision__text-container">
+                <h2><?php the_field('mv_vision_heading'); ?></h2>
+                <?php the_field('mv_vision_text'); ?>
+
                 <h2><?php the_field('mv_mission_heading'); ?></h2>
                 <?php the_field('mv_mission_text'); ?>
 
-                <h2><?php the_field('mv_vision_heading'); ?></h2>
-                <?php the_field('mv_vision_text'); ?>
             </div>
         </div>
     </section>
 
-    <section class="overview-section">
+    <section class="overview-section" id="cv">
 
         <div class="overview-section__inner inline">
 
             <div class="col-5">
                 <div class="overview-section__container">
                     <button class="section-tab">
-                    <?php the_field('cv_heading') ?>
+                        <?php the_field('cv_heading') ?>
                     </button>
                 </div>
                 <div class="core-valus-container">
@@ -89,7 +93,7 @@ get_header();
                     if ($the_query->have_posts()) {
                         while ($the_query->have_posts()) {
                             $the_query->the_post();
-                            ?>
+                    ?>
                             <div class="row inline small-margin-top">
                                 <div class="col col-1 value-icon">
                                     <?php echo the_post_thumbnail(); ?>
@@ -100,7 +104,7 @@ get_header();
                             </div>
 
 
-                            <?php
+                    <?php
                         }
                     } else {
                         // no posts found
