@@ -34,7 +34,48 @@
   }
 }
 
+@media only screen and (max-width: 1092px) {
+  .management-section {
+    margin-bottom: 0rem;
+    &__inner {
+      height: auto;
+      background: #fff;
+    }
+    &__cols-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__col-wrapper {
+      width: 40%;
+    }
+  }
+
+  .page-main {
+    & ul {
+      margin: 0;
+    }
+    &__breadcrumbs-and-products {
+      flex-direction: column;
+
+      & .col-5 {
+        width: 100%;
+        &:not(:first-of-type) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1026px) {
+  .founders-section {
+    &__col {
+      padding: 1rem 2rem;
+    }
+  }
   .solutions-section {
     &__inner {
       & > .row:nth-of-type(1) {
@@ -57,6 +98,17 @@
   .row-2 {
     & .row__inner {
       flex-direction: column-reverse !important;
+    }
+  }
+
+  .mission-vision {
+    padding: 5rem 1rem;
+    &__inner {
+      flex-direction: column;
+
+      & .col-5 {
+        width: 100%;
+      }
     }
   }
 }
@@ -100,6 +152,78 @@
       }
     }
   }
+
+  .trusted-partners-section {
+    &__text {
+      margin-top: 8rem;
+    }
+  }
+  .overview-section {
+    margin-top: 9rem;
+
+    &__text {
+      margin-top: 8rem;
+    }
+
+    &__container {
+      margin: 3.5rem 0;
+    }
+
+    & .core-valus-container .row:first-of-type {
+      margin-top: 5rem;
+    }
+
+    &__btn-set {
+      margin: 3.5rem 0;
+    }
+
+    &__inner {
+      flex-direction: column-reverse;
+      & .col-5 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 894px) {
+  .management-section {
+    &__col-wrapper {
+      width: 50%;
+    }
+  }
+
+  .priority-section {
+    &__inner {
+      flex-direction: column;
+
+      & .col-5 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 887px) {
+  .founders-section-text {
+    margin: 2rem 0;
+  }
+  .founders-section {
+    &__inner {
+      &__inner {
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &__col {
+      width: 57%;
+    }
+  }
 }
 
 @media only screen and (max-width: 811px) {
@@ -110,6 +234,71 @@
   .solutions-section {
     & p:first-child {
       margin-top: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .founders-section {
+    &__col {
+      width: 63%;
+    }
+  }
+
+  .management-section {
+    &__col-wrapper {
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .founders-section {
+    &__col {
+      width: 73%;
+    }
+  }
+
+  .management-section {
+    &__col-wrapper {
+      width: 73%;
+    }
+  }
+
+  .featured-products h2 {
+    left: 50%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .founders-section {
+    &__col {
+      width: 82%;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .founders-section {
+    &__col {
+      width: 100%;
+    }
+  }
+
+  .management-section {
+    &__col-wrapper {
+      width: 100%;
+    }
+  }
+
+  .menu-products-menu-container {
+    width: 100%;
+  }
+  #menu-products-menu {
+    flex-direction: column;
+    &__li {
+      width: 100%;
     }
   }
 }

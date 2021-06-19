@@ -42,8 +42,8 @@ get_header();
                 </div>
             </div>
             <div class="col-5 overview-section-img-container">
-                <img class="solutions-home-img" id="overview-right-img" src="<?php the_field('overview_image') ?>">
-                <img class="solutions-home-img" id="trusted-partners-right-img" src="<?php the_field('trusted_partners_image') ?>">
+                <img class="solutions-home-img img-responsive" id="overview-right-img" src="<?php the_field('overview_image') ?>">
+                <img class="solutions-home-img img-responsive" id="trusted-partners-right-img" src="<?php the_field('trusted_partners_image') ?>">
             </div>
         </div>
     </section>
@@ -115,7 +115,7 @@ get_header();
                 </div>
             </div>
             <div class="col-5 overview-section-img-container">
-                <img class="solutions-home-img" src="<?php the_field('cv_right_image') ?>">
+                <img class="solutions-home-img img-responsive" src="<?php the_field('cv_right_image') ?>">
             </div>
 
         </div>
