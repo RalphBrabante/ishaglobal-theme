@@ -2,8 +2,8 @@
 jQuery(window).scroll(function () {
   jQuery(".solutions-home-img").each(function () {
     const Yoffset = jQuery(this).offset().top - jQuery(window).scrollTop();
-    console.log(Yoffset);
-    console.log(Yoffset < 150);
+    // console.log(Yoffset);
+    // console.log(Yoffset < 150);
     if (Yoffset < 150) {
       jQuery(this).css({ "-webkit-transform": "translate(0)" });
     }
@@ -22,7 +22,7 @@ jQuery(window).scroll(function () {
     jQuery(".custom-logo-link").hide();
     jQuery(".custom-logo-link").show();
     jQuery(".custom-logo-link img").attr({
-      src: "wp-content/uploads/2021/05/globeonly-isha-logo.png",
+      src: "http://igdc.ishaglobal.com.ph/wp-content/uploads/2021/05/globeonly-isha-logo.png",
     });
   }
   if (window.pageYOffset == 0) {
@@ -36,7 +36,7 @@ jQuery(window).scroll(function () {
     });
     jQuery(".custom-logo-link").css({ width: "auto" });
     jQuery(".custom-logo-link img").attr({
-      src: "wp-content/uploads/2021/04/isha-global-logo-small.png",
+      src: "http://igdc.ishaglobal.com.ph/wp-content/uploads/2021/04/isha-global-logo-small.png",
     });
   }
 });
@@ -44,8 +44,6 @@ jQuery(window).scroll(function () {
 // Home Solutions Animations
 
 jQuery("#home-ds-btn").click(function () {
-  console.log("rm class");
-
   jQuery("#home-vc-btn").removeClass("solutions-btn-set__active");
   jQuery(this).addClass("solutions-btn-set__active");
 
@@ -78,7 +76,6 @@ jQuery("#home-vc-btn").click(function () {
 // Why IGDC Overview Section
 
 jQuery("#overview-btn").click(function () {
-  console.log("rm class");
   jQuery("#trusted-partners-btn").removeClass("overview-btn-set__active");
   jQuery(this).addClass("overview-btn-set__active");
   jQuery(".trusted-partners-section__text").fadeOut(200, function () {
@@ -89,7 +86,6 @@ jQuery("#overview-btn").click(function () {
 });
 
 jQuery("#trusted-partners-btn").click(function () {
-  console.log("rm class");
   jQuery("#overview-btn").removeClass("overview-btn-set__active");
   jQuery(this).addClass("overview-btn-set__active");
   jQuery(".overview-section__text").fadeOut(200, function () {

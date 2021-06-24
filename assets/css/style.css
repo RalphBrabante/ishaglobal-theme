@@ -1075,6 +1075,29 @@ button.overview-btn-set__active {
   .careers__list-item {
     margin-top: 1.5rem; }
 
+.search-result-box {
+  border: 1px solid #ededed;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+  .search-result-box__content {
+    margin-top: 1rem; }
+  .search-result-box__button {
+    align-self: flex-end;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #021059;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 1rem; }
+  .search-result-box:last-child {
+    margin-bottom: 15rem; }
+
 .small-margin-top {
   margin-top: 1rem; }
 

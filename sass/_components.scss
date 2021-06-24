@@ -1271,3 +1271,34 @@ button.overview-btn-set__active {
     margin-top: 1.5rem;
   }
 }
+
+// Search Page
+
+.search-result-box {
+  border: 1px solid #ededed;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  &__content {
+    margin-top: 1rem;
+  }
+
+  &__button {
+    align-self: flex-end;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: $primary;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+  }
+
+  &:last-child {
+    margin-bottom: 15rem;
+  }
+}
