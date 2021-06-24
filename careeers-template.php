@@ -21,12 +21,55 @@ get_header();
             ?>
 
         </div>
-        <?php the_content(); ?>
+
+
+        <div class="careers inline">
+            <div class="careers__col col-5">
+                <?php the_content(); ?>
+                <div class="careers__list-container">
+                    <div class="careers__list-header">
+                        <h2> Open Positions </h2>
+                    </div>
+
+                    <?php
+
+                    $args = array(
+                        'post_type' => 'career-item',
+                        'post_status' => 'publish',
+                        'orderby' => 'publish_date',
+                        'order' => 'DESC'
+                    );
+
+                    $loop = new WP_Query($args);
+
+                    while ($loop->have_posts()) : $loop->the_post();
+                    ?>
+                        <div class="careers__list-item">
+                            <h3><strong><?php the_title(); ?></strong></h3>
+                            <div class="careers__position-desc">
+                                <?php the_content(); ?>
+                            </div>
+                        </div>
+                    <?php
+
+                    endwhile;
+
+                    wp_reset_postdata();
+                    ?>
+
+                </div>
+
+            </div>
+            <div class="careers__col col-5">
+
+                <img class="img-responsive" src="<?php the_post_thumbnail_url(); ?>" />
+
+            </div>
+
+        </div>
 
     </main>
 
-
-    <?php get_template_part('partials/content/management', 'section'); ?>
 
 
 

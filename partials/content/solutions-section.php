@@ -2,10 +2,8 @@
     <div class="solutions-section__inner">
         <div class="solutions-section__heading">
             <h2>Our Solutions</h2>
-            <p><strong>While we specialize in Vector Control, our philosophy and industry partnerships advocate a
-                    forward-thinking approach to public health and safety. We believe in building a community that can
-                    mobilize effectively in the face of public safety risks, and therefore creating a sustainable and
-                    localized solution dedicated to communal health.</strong></p>
+            <!-- TODO: Custom Field -->
+            <p><strong>We provide health and safety solutions especially concerning suppression and mitigation of disease-spreading factors like pests, viruses and bacteria. To achieve this, we specialize in Vector Control measures which aim to minimize the risk of catching disease spread by mosquitoes. We also offer Disinfection and Sanitization solutions to protect spaces from Covid-19, other viruses and harmful bacteria as well as multi-purpose tents that can be used for various emergency response situations.</strong></p>
         </div>
         <div class="row extra-large-margin-top">
             <div class="row__inner inline">

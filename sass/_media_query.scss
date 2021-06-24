@@ -204,6 +204,14 @@
       }
     }
   }
+
+  .careers {
+    flex-direction: column-reverse;
+
+    &__col {
+      width: 100%;
+    }
+  }
 }
 
 @media only screen and (max-width: 887px) {
@@ -268,6 +276,15 @@
   .featured-products h2 {
     left: 50%;
     width: 100%;
+  }
+
+  .careers {
+    &__list-header {
+      & h2 {
+        display: block;
+        text-align: center;
+      }
+    }
   }
 }
 

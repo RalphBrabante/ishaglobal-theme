@@ -1,35 +1,15 @@
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__main inline">
-            <div class="col-2-5">
-                <h4>Why IGDC?</h4>
-                <ul class="unordered-list">
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Overview</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Mission & Vision</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Core Values</a>
-                    </li>
 
-                </ul>
+            <div class="col-2-5">
+                <h4>About Us</h4>
+                <?php wp_nav_menu(array('theme_location' => 'footer-menu-1', 'menu_class' => 'unordered-list')); ?>
+
             </div>
             <div class="col-2-5">
                 <h4>Products</h4>
-                <ul class="unordered-list">
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Vector Control</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Disinfection & Sanitation</a>
-                    </li>
-                    <li class="unordered-list__item">
-                        <a href="#" class="unordered-list__link">Core Relief</a>
-                    </li>
-
-                </ul>
+                <?php wp_nav_menu(array('theme_location' => 'footer-menu-2', 'menu_class' => 'unordered-list')); ?>
             </div>
             <div class="col-2-5">
                 <h4>Contact Info</h4>
@@ -41,7 +21,7 @@
                         <a href="tel:+639178844742" class="unordered-list__link">Mobile: +639178844742 (ISHA)</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="mailto:info@igdc.com.ph" class="unordered-list__link">Email: info@igdc.com.ph</a>
+                        <a href="mailto:info@ishaglobal.com.ph" class="unordered-list__link">Email: info@ishaglobal.com.ph</a>
                     </li>
 
                 </ul>
@@ -49,12 +29,12 @@
 
             <div class="col-2-5">
                 <h4>Office Address</h4>
-                <p>Unit 1002 Alabang Business Tower, 1216 Acacia Avenue, Madrigal Business Park, Ayala Alabang, Muntinlupa City 1780 Philippines</p>
+                <p>Unit 1002 Alabang Business Tower 1216 Acacia Ave., Madrigal Business Park Ayala Alabang, Muntinlupa City, 1780 Philippines </p>
             </div>
         </div>
 
         <div class="footer__copyright">
-            <p>Copyright © 2021 Isha Global Philippines | Privacy Policy | Web Design by Sysgage I.T. Solutions Co.</p>
+            <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | Privacy Policy | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
         </div>
 
 
@@ -66,4 +46,5 @@
 </footer>
 
 </body>
+
 </html>

@@ -10,7 +10,7 @@
             $args = array(
                 'post_type' => 'management',
                 'post_status' => 'publish',
-                'posts_per_page' => 3,
+                'posts_per_page' => 5,
                 'orderby' => 'publish_date',
                 'order' => 'ASC'
             );
