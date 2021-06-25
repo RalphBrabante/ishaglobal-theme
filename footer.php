@@ -34,7 +34,7 @@
         </div>
 
         <div class="footer__copyright">
-            <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | Privacy Policy | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
+            <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | <a href="http://localhost/ishaglobal/privacy-policy/">Privacy Policy</a> | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
         </div>
 
 

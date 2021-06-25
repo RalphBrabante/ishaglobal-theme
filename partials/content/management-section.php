@@ -21,7 +21,7 @@
 
             ?>
 
-                <div class="management-section__col-wrapper col-3-5">
+                <div class="management-section__col-wrapper col-2-5">
                     <div class="management-section__col-inner">
 
                         <div class="management-section__row management-section__row--1">

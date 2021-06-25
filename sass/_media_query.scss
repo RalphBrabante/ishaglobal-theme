@@ -6,6 +6,31 @@
   }
 }
 
+@media only screen and (max-width: 1146px) {
+  .management-section {
+    margin-bottom: 0rem;
+    &__inner {
+      height: auto;
+      background: #fff;
+    }
+    &__cols-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__col-wrapper {
+      width: 40%;
+    }
+
+    &__row {
+      &--1 {
+        height: 39rem;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1125px) {
   .header__menu {
     width: 100%;
@@ -35,23 +60,6 @@
 }
 
 @media only screen and (max-width: 1092px) {
-  .management-section {
-    margin-bottom: 0rem;
-    &__inner {
-      height: auto;
-      background: #fff;
-    }
-    &__cols-wrapper {
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-
-    &__col-wrapper {
-      width: 40%;
-    }
-  }
-
   .page-main {
     & ul {
       margin: 0;

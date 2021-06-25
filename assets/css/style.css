@@ -598,6 +598,9 @@ button.overview-btn-set__active {
     margin-top: 3rem;
     text-align: center;
     font-weight: 500; }
+    .footer__copyright a {
+      text-decoration: none;
+      color: #fff; }
   .footer__social {
     padding: 2rem 0;
     display: flex;
@@ -953,7 +956,7 @@ button.overview-btn-set__active {
 
 .management-section {
   background: #f2f2f2;
-  margin-bottom: 40rem; }
+  margin-bottom: 25rem; }
   .management-section h2 {
     text-transform: uppercase;
     text-align: center;
@@ -963,14 +966,14 @@ button.overview-btn-set__active {
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;
-    font-size: 2.4rem; }
+    font-size: 2rem; }
   .management-section__inner {
     position: relative;
-    height: 103rem; }
+    height: 49rem; }
   .management-section__position {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   .management-section__col-wrapper {
-    padding: 2rem; }
+    padding: 1rem; }
   .management-section__col-inner {
     width: 100%;
     display: flex;
@@ -990,7 +993,7 @@ button.overview-btn-set__active {
       position: relative;
       background: white;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      height: 39rem; }
+      height: 31rem; }
     .management-section__row--2 {
       color: #fff;
       background: #021059;
@@ -1071,9 +1074,11 @@ button.overview-btn-set__active {
     display: inline-block;
     background: #021059;
     padding: 1rem 2rem;
-    color: #fff; }
+    color: #fff;
+    font-size: 2.5rem; }
   .careers__list-item {
-    margin-top: 1.5rem; }
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem; }
 
 .search-result-box {
   border: 1px solid #ededed;
@@ -1097,6 +1102,21 @@ button.overview-btn-set__active {
     border-radius: 1rem; }
   .search-result-box:last-child {
     margin-bottom: 15rem; }
+
+.page-id-638 h1,
+.page-id-638 h2,
+.page-id-638 h3,
+.page-id-638 h4 {
+  margin-top: 3rem; }
+
+.page-id-638 .page-wrapper {
+  padding-bottom: 10rem; }
+
+.page-template-careeers-template .page-wrapper {
+  padding-bottom: 15rem; }
+
+.why-igdc-slider {
+  display: none; }
 
 .small-margin-top {
   margin-top: 1rem; }
@@ -1126,6 +1146,21 @@ button.overview-btn-set__active {
   .top-info-v2__inner {
     width: 100%; } }
 
+@media only screen and (max-width: 1146px) {
+  .management-section {
+    margin-bottom: 0rem; }
+    .management-section__inner {
+      height: auto;
+      background: #fff; }
+    .management-section__cols-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center; }
+    .management-section__col-wrapper {
+      width: 40%; }
+    .management-section__row--1 {
+      height: 39rem; } }
+
 @media only screen and (max-width: 1125px) {
   .header__menu {
     width: 100%; }
@@ -1141,17 +1176,6 @@ button.overview-btn-set__active {
     padding: 1rem; } }
 
 @media only screen and (max-width: 1092px) {
-  .management-section {
-    margin-bottom: 0rem; }
-    .management-section__inner {
-      height: auto;
-      background: #fff; }
-    .management-section__cols-wrapper {
-      position: relative;
-      display: flex;
-      justify-content: center; }
-    .management-section__col-wrapper {
-      width: 40%; }
   .page-main ul {
     margin: 0; }
   .page-main__breadcrumbs-and-products {

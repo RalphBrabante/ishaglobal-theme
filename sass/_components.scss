@@ -626,6 +626,11 @@ button.overview-btn-set__active {
     margin-top: 3rem;
     text-align: center;
     font-weight: 500;
+
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 
   &__social {
@@ -1092,7 +1097,7 @@ button.overview-btn-set__active {
 
 .management-section {
   background: $grey-bg;
-  margin-bottom: 40rem;
+  margin-bottom: 25rem;
 
   & h2 {
     text-transform: uppercase;
@@ -1105,19 +1110,19 @@ button.overview-btn-set__active {
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   &__inner {
     position: relative;
-    height: 103rem;
+    height: 49rem;
   }
   &__position {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   &__col-wrapper {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   &__col-inner {
@@ -1146,8 +1151,7 @@ button.overview-btn-set__active {
       position: relative;
       background: white;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-      height: 39rem;
+      height: 31rem;
     }
     &--2 {
       color: #fff;
@@ -1264,11 +1268,13 @@ button.overview-btn-set__active {
       background: $primary;
       padding: 1rem 2rem;
       color: #fff;
+      font-size: 2.5rem;
     }
   }
 
   &__list-item {
     margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -1301,4 +1307,28 @@ button.overview-btn-set__active {
   &:last-child {
     margin-bottom: 15rem;
   }
+}
+
+//Privacy Page Style
+
+.page-id-638 {
+  & h1,
+  & h2,
+  & h3,
+  & h4 {
+    margin-top: 3rem;
+  }
+  & .page-wrapper {
+    padding-bottom: 10rem;
+  }
+}
+
+.page-template-careeers-template {
+  & .page-wrapper {
+    padding-bottom: 15rem;
+  }
+}
+
+.why-igdc-slider {
+  display: none;
 }

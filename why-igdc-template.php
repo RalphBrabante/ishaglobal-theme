@@ -12,7 +12,7 @@ get_header();
     <div class="page-header" style="background:linear-gradient(to right bottom, #021059, transparent), url(<?php echo the_field('header_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
         <h1 class="page-heading"><?php the_title() ?></h1>
     </div>
-    <main class="page-main">
+    <main class="page-main" id="overview">
         <div class="breadcrumbs">
             <?php
             if (function_exists('yoast_breadcrumb')) {
@@ -24,7 +24,7 @@ get_header();
         <?php the_content(); ?>
 
     </main>
-    <section class="overview-section extra-large-margin-top" id="overview">
+    <section class="overview-section extra-large-margin-top">
 
         <div class="overview-section__inner inline">
             <div class="col-5">
@@ -34,17 +34,24 @@ get_header();
                 </div>
                 <div class="overview-section__text large-margin-top">
                     <?php the_field('overview_text') ?>
+
                 </div>
 
                 <div class="trusted-partners-section__text large-margin-top">
                     <?php the_field('trusted_partners_text') ?>
-                    <?php echo do_shortcode('[sp_wpcarousel id="462"]'); ?>
+
                 </div>
+
+
             </div>
             <div class="col-5 overview-section-img-container">
                 <img class="solutions-home-img img-responsive" id="overview-right-img" src="<?php the_field('overview_image') ?>">
                 <img class="solutions-home-img img-responsive" id="trusted-partners-right-img" src="<?php the_field('trusted_partners_image') ?>">
             </div>
+
+        </div>
+        <div class="inner-container why-igdc-slider">
+            <?php echo do_shortcode('[sp_wpcarousel id="462"]'); ?>
         </div>
     </section>
 
@@ -57,7 +64,7 @@ get_header();
             <div class="col-5 mission-vision__left-image-container">
                 <img src="<?php the_field('mv_left_image'); ?>" />
             </div>
-            <div class="col-5 mission-vision__text-container">
+            <div class="col-5 mission-vision__text-container" id="cv">
                 <h2><?php the_field('mv_vision_heading'); ?></h2>
                 <?php the_field('mv_vision_text'); ?>
 
@@ -68,7 +75,7 @@ get_header();
         </div>
     </section>
 
-    <section class="overview-section" id="cv">
+    <section class="overview-section">
 
         <div class="overview-section__inner inline">
 

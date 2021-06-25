@@ -91,6 +91,7 @@ jQuery("#trusted-partners-btn").click(function () {
   jQuery(".overview-section__text").fadeOut(200, function () {
     jQuery(".trusted-partners-section__text").fadeIn(200);
     jQuery("#overview-right-img").hide();
+    jQuery(".why-igdc-slider").show();
     jQuery("#trusted-partners-right-img").fadeIn(200);
   });
 });
