@@ -12,7 +12,7 @@
             </div>
             <div class="col col-6">
                 <div class="img-container">
-                    <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/09/Our-Ambition.jpg" />
+                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/09/Our-Ambition.jpg" />
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <div class="row flex-align">
             <div class="col col-6">
                 <div class="img-container">
-                    <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/09/Our-Purpose.jpg" />
+                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/09/Our-Purpose.jpg" />
                 </div>
             </div>
             <div class="col col-4">

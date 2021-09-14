@@ -46,6 +46,13 @@
   flex-direction: column;
 }
 
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-content-center {
+  justify-content: center;
+}
 .justify-end {
   margin-top: auto;
 }
@@ -57,7 +64,9 @@
 .mt-1 {
   margin-top: 1rem;
 }
-
+.mt-2 {
+  margin-top: 2rem;
+}
 .mt-3 {
   margin-top: 3rem;
 }

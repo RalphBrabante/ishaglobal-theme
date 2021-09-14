@@ -14,7 +14,7 @@
             </div>
             <div class="about-us-partial_col col-3">
                 <div class="img-container">
-                    <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/09/DNLA_About-us.jpg" />
+                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/09/DNLA_About-us.jpg" />
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <div class="about-us-partial__row flex-align vertical-align-center ">
             <div class="about-us-partial_col col-4">
                 <div class="img-container">
-                    <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/09/About-us.jpg" />
+                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/09/About-us.jpg" />
                 </div>
             </div>
             <div class="about-us-partial_col col-6">

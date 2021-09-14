@@ -6,7 +6,7 @@
             <p><strong>The world experienced drastic changes since the discovery and spread of Covid-19. The virus’ high infection rate essentially prohibits close human contact, leading to severe repercussions on all aspects of living. </strong></p>
         </div>
 
-        <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('http://localhost/ishaglobal/wp-content/uploads/2021/09/Spritz.jpg')no-repeat left fixed; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+        <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('http://ishav4.sysgage.com/wp-content/uploads/2021/09/Spritz.jpg')no-repeat left fixed; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
             <div class="row__inner inline">
                 <div class="col-5">
                     <h2 class="white">WHEN A SPRITZ WON’T SUFFICE</h2>

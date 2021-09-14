@@ -287,8 +287,7 @@
 
   &__card {
     width: calc(100% - 2rem);
-    padding: 3rem 1rem;
-    margin: 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     //box-shadow: 0px 1px 5px 0px #ddd;
 
@@ -1101,9 +1100,9 @@ button.overview-btn-set__active {
 
 .management-section {
   background: $grey-bg;
-  margin-top: 70rem;
+  margin-top: 44rem;
   margin-bottom: 25rem;
-  height: 23rem;
+  height: 29rem;
 
   &__bio-img {
     overflow: hidden;
@@ -1351,5 +1350,55 @@ button.overview-btn-set__active {
   &__inner {
     padding: 2rem 0;
     background-image: linear-gradient(to top, $primary 1%, transparent 90%);
+  }
+}
+
+.founders-text {
+  display: none;
+}
+
+.founder-read-less {
+  display: none;
+  cursor: pointer;
+}
+
+.founder-read-less span {
+  margin-left: 0.5rem;
+}
+
+.founder-read-more {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.founder-read-more span,
+.founder-read-less span {
+  text-decoration: underline;
+  color: rgb(9, 157, 243);
+  margin-right: 0.5rem;
+}
+
+.priciple-list {
+  padding: 3rem 1rem;
+
+  & h4 {
+    font-weight: bold;
+    font-size: 1.9rem;
+  }
+  & ul {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+
+    & li {
+      line-height: 1.9rem;
+      padding: 1.7rem 0;
+
+      & p {
+        font-size: 1.7rem;
+      }
+    }
   }
 }

@@ -374,8 +374,7 @@ h4 {
     text-align: justify; }
   .priority-section__card {
     width: calc(100% - 2rem);
-    padding: 3rem 1rem;
-    margin: 1rem;
+    padding: 0.5rem 1rem;
     text-align: center; }
     .priority-section__card--three-cols {
       width: calc(33.3333333333% - 2rem);
@@ -975,9 +974,9 @@ button.overview-btn-set__active {
 
 .management-section {
   background: #f2f2f2;
-  margin-top: 70rem;
+  margin-top: 44rem;
   margin-bottom: 25rem;
-  height: 23rem; }
+  height: 29rem; }
   .management-section__bio-img {
     overflow: hidden;
     border-radius: 100%;
@@ -1149,6 +1148,43 @@ button.overview-btn-set__active {
     padding: 2rem 0;
     background-image: linear-gradient(to top, #021059 1%, transparent 90%); }
 
+.founders-text {
+  display: none; }
+
+.founder-read-less {
+  display: none;
+  cursor: pointer; }
+
+.founder-read-less span {
+  margin-left: 0.5rem; }
+
+.founder-read-more {
+  cursor: pointer;
+  display: flex;
+  align-items: center; }
+
+.founder-read-more span,
+.founder-read-less span {
+  text-decoration: underline;
+  color: #099df3;
+  margin-right: 0.5rem; }
+
+.priciple-list {
+  padding: 3rem 1rem; }
+  .priciple-list h4 {
+    font-weight: bold;
+    font-size: 1.9rem; }
+  .priciple-list ul {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2; }
+    .priciple-list ul li {
+      line-height: 1.9rem;
+      padding: 1.7rem 0; }
+      .priciple-list ul li p {
+        font-size: 1.7rem; }
+
 .small-margin-top {
   margin-top: 1rem; }
 
@@ -1185,6 +1221,12 @@ button.overview-btn-set__active {
 .flex-column {
   flex-direction: column; }
 
+.flex-align-center {
+  align-items: center; }
+
+.flex-justify-content-center {
+  justify-content: center; }
+
 .justify-end {
   margin-top: auto; }
 
@@ -1194,6 +1236,9 @@ button.overview-btn-set__active {
 
 .mt-1 {
   margin-top: 1rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
 
 .mt-3 {
   margin-top: 3rem; }
@@ -1479,7 +1524,7 @@ figcaption {
   justify-content: flex-end; }
 
 .wp-block-buttons {
-  margin: 3rem 0; }
+  margin: 3rem 0 0 0; }
 
 @keyframes arrowRotate {
   from {

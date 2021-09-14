@@ -28,7 +28,16 @@
                             <h3><?php the_title(); ?></h3>
                             <h4><?php the_field('sub_title'); ?></h4>
                             <div class="founders-section__bio">
-                                <p><?php the_field('text'); ?></p>
+                                <div class="founders-text"><?php the_field('text'); ?></div>
+                                <?php if (!empty(get_field('excerpt'))) : ?>
+                                    <div class="founders-excerpt"><?php the_field('excerpt'); ?></div>
+                                    <div class="founder-read-more mt-2"><span>Read More</span> &darr;</div>
+                                    <div class="founder-read-less mt-2">&uarr;<span> Read Less </span></div>
+
+
+                                <?php else : ?>
+                                    <div class="founders-full-text"><?php the_field('text'); ?></div>
+                                <?php endif; ?>
                             </div>
                         </div>
 
