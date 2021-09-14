@@ -7,15 +7,14 @@
   margin-bottom: 3rem;
 }
 
-
 /* Forminator */
 
-.forminator-custom-form input, .forminator-textarea {
+.forminator-custom-form input,
+.forminator-textarea {
   background: #fff !important;
   border: 1px solid $primary !important;
   padding: 2rem 1rem !important;
 }
-
 
 /* WP Buttons */
 
@@ -27,7 +26,6 @@
   font-weight: 600;
   border-radius: 0;
 }
-
 
 /* Fig Caption */
 figcaption {
@@ -47,7 +45,6 @@ figcaption {
 .page-main p:first-child {
   margin-top: 0;
 }
-
 
 /* Breadcrumbs */
 
@@ -69,7 +66,8 @@ figcaption {
   color: #fff;
 }
 
-#breadcrumbs a, #breadcrumbs strong {
+#breadcrumbs a,
+#breadcrumbs strong {
   padding: 1rem;
   text-decoration: none;
 }
@@ -87,4 +85,8 @@ figcaption {
   display: flex !important;
   align-items: center;
   justify-content: flex-end;
+}
+
+.wp-block-buttons {
+  margin: 3rem 0;
 }

@@ -326,4 +326,46 @@
       width: 100%;
     }
   }
+
+  .top-info-v2 {
+    &__text-container {
+      text-align: center;
+      align-self: center;
+    }
+
+    & span {
+      font-size: 3rem;
+      line-height: 5rem;
+    }
+
+    &__inner {
+      & .col-10 {
+        justify-content: center;
+      }
+
+      & h2 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .founders-section {
+    &__bio-img {
+      max-width: 20rem;
+    }
+  }
+
+  .overview-section__btn-set {
+    width: 100%;
+    display: inline-block;
+    transform: (0, 0);
+    margin: 0 auto;
+    z-index: 9999;
+
+    & button {
+      width: 100%;
+    }
+  }
 }

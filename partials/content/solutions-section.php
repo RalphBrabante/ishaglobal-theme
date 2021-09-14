@@ -1,9 +1,9 @@
-<section class="solutions-section">
+<section class="solutions-section" id="sol">
     <div class="solutions-section__inner">
         <div class="solutions-section__heading">
             <h2>Our Solutions</h2>
             <!-- TODO: Custom Field -->
-            <p><strong>We provide health and safety solutions especially concerning suppression and mitigation of disease-spreading factors like pests, viruses and bacteria. To achieve this, we specialize in Vector Control measures which aim to minimize the risk of catching disease spread by mosquitoes. We also offer Disinfection and Sanitization solutions to protect spaces from Covid-19, other viruses and harmful bacteria as well as multi-purpose tents that can be used for various emergency response situations.</strong></p>
+            <p><strong>We are committed to provide only the safest and highest-quality measures in protecting human lives among communities. </strong></p>
         </div>
         <div class="row extra-large-margin-top">
             <div class="row__inner inline">

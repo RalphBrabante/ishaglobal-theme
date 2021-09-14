@@ -21,16 +21,20 @@
             ?>
 
                 <div class="founders-section__col col-5">
+
                     <div class="founders-section__col__inner ">
-                        <h3><?php the_title(); ?></h3>
-                        <div class="founders-section__bio">
-                            <p><?php the_field('text_1'); ?></p>
+                        <img class="img-responsive" src="<?php the_post_thumbnail_url(); ?>" />
+                        <div class="founders-section__inner-text">
+                            <h3><?php the_title(); ?></h3>
+                            <h4><?php the_field('sub_title'); ?></h4>
+                            <div class="founders-section__bio">
+                                <p><?php the_field('text'); ?></p>
+                            </div>
                         </div>
-                        <div class="founders-section__small-bio">
-                            <p><?php the_field('text_2'); ?></p>
-                        </div>
+
+
                         <div class="founders-section__bio-img">
-                            <img class="img-responsive" src="<?php the_post_thumbnail_url(); ?>" />
+
                         </div>
                     </div>
                 </div>
@@ -45,8 +49,4 @@
 
         </div>
     </div>
-</section>
-
-<section class="founders-section-text inner-container">
-    <h3>Isha Global Distribution Corp. was founded by Dennis & Stacey. We care about quality, craft and disciplined experimentation. We are active contributors to the welfare of our members, partners and the society.</h3>
 </section>

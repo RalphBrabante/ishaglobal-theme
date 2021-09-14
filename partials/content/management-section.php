@@ -33,9 +33,7 @@
                             <h3><?php the_title(); ?></h3>
                             <span class="management-section__position"><?php the_field('position'); ?></span>
                         </div>
-                        <div class="management-section__row management-section__row--3">
-                            <p><?php the_field('text'); ?></p>
-                        </div>
+
                     </div>
                 </div>
 

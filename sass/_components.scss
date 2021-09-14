@@ -714,7 +714,8 @@ button.overview-btn-set__active {
 }
 
 #menu-products-menu li:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #menu-products-menu .current-menu-item {
@@ -1009,7 +1010,8 @@ button.overview-btn-set__active {
     transform: translate(-50%, -50%);
     background: #021059;
     color: #fff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
   &__inner {
@@ -1047,10 +1049,12 @@ button.overview-btn-set__active {
     &__inner {
       position: relative;
       background: #fff;
-      padding: 5rem;
-      height: 62rem;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
+  }
+
+  &__inner-text {
+    padding: 3rem 2rem;
   }
 
   &__inner {
@@ -1097,71 +1101,36 @@ button.overview-btn-set__active {
 
 .management-section {
   background: $grey-bg;
+  margin-top: 70rem;
   margin-bottom: 25rem;
+  height: 23rem;
 
-  & h2 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 4rem 0;
-    font-weight: bold;
-  }
-
-  & h3 {
-    text-transform: uppercase;
-    text-align: left;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-
-  &__inner {
-    position: relative;
-    height: 49rem;
-  }
-  &__position {
-    font-size: 1.5rem;
+  &__bio-img {
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
   }
 
   &__col-wrapper {
-    padding: 1rem;
+    padding: 0 2rem;
   }
 
-  &__col-inner {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  & h2 {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  & h3 {
+    font-weight: bold;
   }
 
-  &__bio-img {
-    position: absolute;
-    top: -5rem;
-    right: -2rem;
+  &__row--2 {
+    margin-top: 1rem;
+    text-align: center;
   }
 
-  &__cols-wrapper {
-    position: absolute;
-    justify-content: center;
-  }
-
-  &__row {
-    padding: 1rem 3rem;
-
-    &--1 {
-      margin: 0rem 2rem;
-      position: relative;
-      background: white;
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      height: 31rem;
-    }
-    &--2 {
-      color: #fff;
-      background: $primary;
-      text-align: left;
-      z-index: 999;
-    }
-    &--3 {
-      background: $grey-bg;
-    }
+  &__position {
+    font-size: 1.8rem;
   }
 }
 
@@ -1331,4 +1300,56 @@ button.overview-btn-set__active {
 
 .why-igdc-slider {
   display: none;
+}
+
+//Partial About Us
+.about-us-partial {
+  background-color: $grey-bg;
+  padding-bottom: 4rem;
+  &__inner {
+    position: relative;
+  }
+
+  &__tab {
+    position: absolute;
+    transform: translatey(-50%);
+    left: 100px;
+    padding: 1rem;
+    background: orange;
+    font-size: 2rem;
+    color: fff;
+    font-weight: bold;
+  }
+}
+
+#home-products-row {
+  padding: 10rem 1rem;
+}
+
+.ambition-and-purpose {
+  padding-bottom: 3rem;
+  & h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  & h3 {
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+
+  & .col-4 {
+    padding: 4rem;
+  }
+}
+
+.our-princinples-section {
+  height: 55rem;
+  justify-content: flex-end;
+
+  &__inner {
+    padding: 2rem 0;
+    background-image: linear-gradient(to top, $primary 1%, transparent 90%);
+  }
 }

@@ -3,7 +3,7 @@
         <div class="footer__main inline">
 
             <div class="col-2-5">
-                <h4>About Us</h4>
+                <h4>Why IGDC?</h4>
                 <?php wp_nav_menu(array('theme_location' => 'footer-menu-1', 'menu_class' => 'unordered-list')); ?>
 
             </div>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="footer__copyright">
-            <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | <a href="http://localhost/ishaglobal/privacy-policy/">Privacy Policy</a> | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
+            <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | <a href="http://112.198.200.244/ishaglobal/privacy-policy/">Privacy Policy</a> | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
         </div>
 
 

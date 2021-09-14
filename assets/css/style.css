@@ -91,15 +91,27 @@ body {
 
 p {
   font-size: 1.6rem;
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
 
 h1 {
   font-size: 4.5rem;
   font-weight: 300; }
 
 h2 {
-  font-size: 3rem;
-  font-weight: 400; }
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif; }
+
+h2.white {
+  font-size: 3.4rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px rgba(88, 88, 88, 0.7); }
 
 h3 {
   font-size: 2rem;
@@ -135,6 +147,13 @@ h4 {
   text-transform: uppercase;
   background: #ff9d14 !important;
   text-transform: uppercase !important; }
+
+.solutions-section__row p,
+.products-section__row p {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px rgba(88, 88, 88, 0.7); }
 
 /* HEADER */
 .header {
@@ -924,9 +943,9 @@ button.overview-btn-set__active {
     .founders-section__col__inner {
       position: relative;
       background: #fff;
-      padding: 5rem;
-      height: 62rem;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
+  .founders-section__inner-text {
+    padding: 3rem 2rem; }
   .founders-section__inner h2 {
     font-weight: bold;
     text-align: center;
@@ -956,51 +975,26 @@ button.overview-btn-set__active {
 
 .management-section {
   background: #f2f2f2;
-  margin-bottom: 25rem; }
-  .management-section h2 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 4rem 0;
-    font-weight: bold; }
-  .management-section h3 {
-    text-transform: uppercase;
-    text-align: left;
-    font-weight: bold;
-    font-size: 2rem; }
-  .management-section__inner {
-    position: relative;
-    height: 49rem; }
-  .management-section__position {
-    font-size: 1.5rem; }
-  .management-section__col-wrapper {
-    padding: 1rem; }
-  .management-section__col-inner {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+  margin-top: 70rem;
+  margin-bottom: 25rem;
+  height: 23rem; }
   .management-section__bio-img {
-    position: absolute;
-    top: -5rem;
-    right: -2rem; }
-  .management-section__cols-wrapper {
-    position: absolute;
-    justify-content: center; }
-  .management-section__row {
-    padding: 1rem 3rem; }
-    .management-section__row--1 {
-      margin: 0rem 2rem;
-      position: relative;
-      background: white;
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      height: 31rem; }
-    .management-section__row--2 {
-      color: #fff;
-      background: #021059;
-      text-align: left;
-      z-index: 999; }
-    .management-section__row--3 {
-      background: #f2f2f2; }
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff; }
+  .management-section__col-wrapper {
+    padding: 0 2rem; }
+  .management-section h2 {
+    margin: 2rem 0;
+    text-align: center; }
+  .management-section h3 {
+    font-weight: bold; }
+  .management-section__row--2 {
+    margin-top: 1rem;
+    text-align: center; }
+  .management-section__position {
+    font-size: 1.8rem; }
 
 .mobile-menu-btn {
   border: 1px solid #021059;
@@ -1118,6 +1112,43 @@ button.overview-btn-set__active {
 .why-igdc-slider {
   display: none; }
 
+.about-us-partial {
+  background-color: #f2f2f2;
+  padding-bottom: 4rem; }
+  .about-us-partial__inner {
+    position: relative; }
+  .about-us-partial__tab {
+    position: absolute;
+    transform: translatey(-50%);
+    left: 100px;
+    padding: 1rem;
+    background: orange;
+    font-size: 2rem;
+    color: fff;
+    font-weight: bold; }
+
+#home-products-row {
+  padding: 10rem 1rem; }
+
+.ambition-and-purpose {
+  padding-bottom: 3rem; }
+  .ambition-and-purpose h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem 0; }
+  .ambition-and-purpose h3 {
+    font-weight: bold;
+    font-size: 2.4rem; }
+  .ambition-and-purpose .col-4 {
+    padding: 4rem; }
+
+.our-princinples-section {
+  height: 55rem;
+  justify-content: flex-end; }
+  .our-princinples-section__inner {
+    padding: 2rem 0;
+    background-image: linear-gradient(to top, #021059 1%, transparent 90%); }
+
 .small-margin-top {
   margin-top: 1rem; }
 
@@ -1141,6 +1172,53 @@ button.overview-btn-set__active {
 
 .flex-wrap {
   flex-wrap: wrap; }
+
+.large-bot-padding {
+  padding-bottom: 15rem; }
+
+.flex-align {
+  display: flex; }
+
+.text-center {
+  text-align: center; }
+
+.flex-column {
+  flex-direction: column; }
+
+.justify-end {
+  margin-top: auto; }
+
+.container-horizontal {
+  max-width: 1050px;
+  margin: 0 auto; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mt-3 {
+  margin-top: 3rem; }
+
+.mt-5 {
+  margin-top: 5rem; }
+
+.mb-2 {
+  margin-bottom: 2rem; }
+
+.pt-3 {
+  padding-top: 3rem; }
+
+.img-container {
+  padding: 0rem 1rem; }
+
+.white-heading {
+  color: #fff;
+  font-size: 5rem; }
+
+.white-text {
+  color: #fff; }
+
+.child-text-center {
+  text-align: center; }
 
 @media only screen and (max-width: 1239px) {
   .top-info-v2__inner {
@@ -1306,6 +1384,28 @@ button.overview-btn-set__active {
   #menu-products-menu {
     flex-direction: column; }
     #menu-products-menu__li {
+      width: 100%; }
+  .top-info-v2__text-container {
+    text-align: center;
+    align-self: center; }
+  .top-info-v2 span {
+    font-size: 3rem;
+    line-height: 5rem; }
+  .top-info-v2__inner .col-10 {
+    justify-content: center; }
+  .top-info-v2__inner h2 {
+    font-size: 1.2rem; } }
+
+@media only screen and (max-width: 464px) {
+  .founders-section__bio-img {
+    max-width: 20rem; }
+  .overview-section__btn-set {
+    width: 100%;
+    display: inline-block;
+    transform: 0, 0;
+    margin: 0 auto;
+    z-index: 9999; }
+    .overview-section__btn-set button {
       width: 100%; } }
 
 .no-box-shadow {
@@ -1316,7 +1416,8 @@ button.overview-btn-set__active {
   margin-bottom: 3rem; }
 
 /* Forminator */
-.forminator-custom-form input, .forminator-textarea {
+.forminator-custom-form input,
+.forminator-textarea {
   background: #fff !important;
   border: 1px solid #021059 !important;
   padding: 2rem 1rem !important; }
@@ -1360,7 +1461,8 @@ figcaption {
   height: 100%;
   color: #fff; }
 
-#breadcrumbs a, #breadcrumbs strong {
+#breadcrumbs a,
+#breadcrumbs strong {
   padding: 1rem;
   text-decoration: none; }
 
@@ -1375,6 +1477,9 @@ figcaption {
   display: flex !important;
   align-items: center;
   justify-content: flex-end; }
+
+.wp-block-buttons {
+  margin: 3rem 0; }
 
 @keyframes arrowRotate {
   from {
