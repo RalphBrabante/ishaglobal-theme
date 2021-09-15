@@ -134,3 +134,19 @@ jQuery(this).parent().children('.founder-read-less').hide();
 })
 
 
+
+
+jQuery('.about-read-more span').on('click', function(){
+
+  jQuery(this).parents('.about-us-excerpt').hide()
+  jQuery(this).parents('.about-us-excerpt').siblings('.about-us-main-content').show()
+
+})
+
+
+jQuery('.about-read-less span').on('click', function(){
+
+  jQuery(this).parents('.about-us-main-content').hide()
+  jQuery(this).parents('.about-us-main-content').siblings('.about-us-excerpt').show()
+
+})

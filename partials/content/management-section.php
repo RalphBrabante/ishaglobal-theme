@@ -11,7 +11,8 @@
                 'post_type' => 'management',
                 'post_status' => 'publish',
                 'posts_per_page' => 5,
-                'orderby' => 'publish_date',
+                'meta_key'            => 'order',
+                'orderby'            => 'meta_value',
                 'order' => 'ASC'
             );
 

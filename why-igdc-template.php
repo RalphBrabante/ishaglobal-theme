@@ -21,10 +21,10 @@ get_header();
             ?>
 
         </div>
-        <?php the_content(); ?>
+
 
     </main>
-    <?php get_template_part('partials/content/about-us', 'section'); ?>
+    <?php get_template_part('partials/content/about-usv2', 'section'); ?>
 
     <?php get_template_part('partials/content/founders', 'section'); ?>
 

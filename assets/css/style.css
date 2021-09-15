@@ -145,7 +145,6 @@ h4 {
 
 .n2-ss-button-container a {
   text-transform: uppercase;
-  background: #ff9d14 !important;
   text-transform: uppercase !important; }
 
 .solutions-section__row p,
@@ -1166,7 +1165,8 @@ button.overview-btn-set__active {
 .founder-read-more span,
 .founder-read-less span {
   text-decoration: underline;
-  color: #099df3;
+  color: #021059;
+  font-size: 1.6rem;
   margin-right: 0.5rem; }
 
 .priciple-list {
@@ -1184,6 +1184,52 @@ button.overview-btn-set__active {
       padding: 1.7rem 0; }
       .priciple-list ul li p {
         font-size: 1.7rem; }
+
+.top-info-v2__footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  text-align: center; }
+
+.top-info-v2__footer p {
+  text-transform: uppercase !important; }
+
+.top-info-v2__footer .n2-ss-layer-row-inner {
+  display: block !important; }
+
+.about-us__content-wrapper {
+  padding: 3rem 0; }
+
+.about-us-main-content {
+  display: none; }
+
+.about-read-more,
+.about-read-less {
+  font-size: 1.6rem; }
+
+.about-read-more span,
+.about-read-less span {
+  text-decoration: underline;
+  color: #021059 !important;
+  cursor: pointer; }
+
+.heading-with-shadow h2 {
+  text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important; }
+
+.font-family-ubuntu h2 {
+  font-family: "Ubuntu", sans-serif !important; }
+
+.n2-ss-layer p {
+  font-family: "Ubuntu", sans-serif !important; }
+
+div.quicksand-font-slider h2 {
+  font-family: "Ubuntu", sans-serif !important;
+  font-weight: bold !important; }
+
+div.transform-uppercase h2 {
+  text-transform: uppercase !important; }
+
+.yellow-text {
+  color: #fe9d15; }
 
 .small-margin-top {
   margin-top: 1rem; }
@@ -1516,13 +1562,6 @@ figcaption {
   width: 100%; }
 
 /* Slider Button */
-.n2-ss-button-container {
-  margin-top: 2rem;
-  width: 100%;
-  display: flex !important;
-  align-items: center;
-  justify-content: flex-end; }
-
 .wp-block-buttons {
   margin: 3rem 0 0 0; }
 

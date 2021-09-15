@@ -1,5 +1,4 @@
-<section class="home-top-info"
-         style="background: linear-gradient(to right, white 45%, transparent 75%), url(<?php echo the_field('top_info_background_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
+<section class="home-top-info" style="background: linear-gradient(to right, white 45%, transparent 75%), url(<?php echo the_field('top_info_background_image'); ?>); background-position:center; background-size: cover; background-attachment: fixed">
     <div class="home-top-info__inner inline">
         <div class="col col-4 ">
             <h1><?php echo the_field('top_info_heading_1'); ?></h1>

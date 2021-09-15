@@ -1,3 +1,25 @@
+.heading-with-shadow h2 {
+  text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important;
+}
+
+.font-family-ubuntu h2 {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.n2-ss-layer p {
+  font-family: "Ubuntu", sans-serif !important;
+}
+div.quicksand-font-slider h2 {
+  font-family: "Ubuntu", sans-serif !important;
+  font-weight: bold !important;
+}
+
+div.transform-uppercase h2 {
+  text-transform: uppercase !important;
+}
+.yellow-text {
+  color: #fe9d15;
+}
 .small-margin-top {
   margin-top: 1rem;
 }

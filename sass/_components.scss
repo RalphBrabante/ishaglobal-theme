@@ -1375,7 +1375,8 @@ button.overview-btn-set__active {
 .founder-read-more span,
 .founder-read-less span {
   text-decoration: underline;
-  color: rgb(9, 157, 243);
+  color: #021059;
+  font-size: 1.6rem;
   margin-right: 0.5rem;
 }
 
@@ -1401,4 +1402,40 @@ button.overview-btn-set__active {
       }
     }
   }
+}
+
+.top-info-v2__footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  text-align: center;
+}
+
+.top-info-v2__footer p {
+  text-transform: uppercase !important;
+}
+
+.top-info-v2__footer .n2-ss-layer-row-inner {
+  display: block !important;
+}
+
+.about-us {
+  &__content-wrapper {
+    padding: 3rem 0;
+  }
+}
+
+.about-us-main-content {
+  display: none;
+}
+
+.about-read-more,
+.about-read-less {
+  font-size: 1.6rem;
+}
+
+.about-read-more span,
+.about-read-less span {
+  text-decoration: underline;
+  color: #021059 !important;
+  cursor: pointer;
 }
