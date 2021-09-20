@@ -1,5 +1,5 @@
 <section class="founders-section" id="org">
-    <div class="founders-section__inner inner-container">
+    <div class="founders-section__inner">
         <h2>The Founders</h2>
         <div class="founders-section__inner__inner inline">
 

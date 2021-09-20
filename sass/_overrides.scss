@@ -90,3 +90,12 @@ figcaption {
 .wp-block-buttons {
   margin: 3rem 0 0 0;
 }
+
+.wp-block-columns {
+  margin-bottom: 0 !important;
+}
+
+.wp-block-column p:first-child,
+.about-us-partial_col p:first-child {
+  margin-top: 0 !important;
+}
