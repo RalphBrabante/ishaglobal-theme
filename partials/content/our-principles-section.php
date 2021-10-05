@@ -14,30 +14,30 @@
         <ul data-columns="2">
             <li>
                 <h4>Uphold strong moral ethical principles and values</h4>
-                <p>Our work is defined by honest commitments and responsible actions. </p>
+                <p>Our work is defined by honest commitments and responsible actions.</p>
             </li>
             <li>
-                <h4>Anchor to the True North</h4>
-                <p>Pursuing success means a clear-eyed determination to achieve our goals.</p>
+                <h4>Our compass is always set at True North</h4>
+                <p>We engage ourselves with a clear-eyed commitment and determination to achieve our goals and aspirations.</p>
             </li>
             <li>
                 <h4>Striving for the best in what we do</h4>
-                <p>Pursuing success means a clear-eyed determination to achieve our goals.</p>
+                <p>We always perform our daily tasks with par excellence – no matter how big or small.</p>
             </li>
-
+            <br /><br /><br />
             <li>
-                <h4>Striving for the best in what we do</h4>
+                <h4>Explore the possibilities of change and new ideas</h4>
                 <p>Always being adaptable and ahead of the game is how we’ll change the world for the better.</p>
             </li>
 
             <li>
                 <h4>Commitment to the growth of people</h4>
-                <p>We care deeply about our team’s well-being, and strive to empower their career and personal growth.</p>
+                <p>We care deeply about our team’s well-being, and strive to empower their career and personal development.</p>
             </li>
 
             <li>
                 <h4>Maintain balance between the economy and ecosystem</h4>
-                <p>We measure success by how well we fulfill our duty to society’s betterment. </p>
+                <p>We treat social responsibility and business as integral to each other’s existence. So, as we grow our business, we extend our hands to communities who are in need for the betterment and welfare of our society. </p>
             </li>
         </ul>
 

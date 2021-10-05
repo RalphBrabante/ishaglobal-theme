@@ -99,3 +99,19 @@ figcaption {
 .about-us-partial_col p:first-child {
   margin-top: 0 !important;
 }
+
+// PRODUCT MENUS
+
+.page-template-product-page-disinfection
+  #menu-products-menu
+  .current-menu-item {
+  background: rgb(14, 89, 232) !important;
+}
+
+.page-template-porudct-page-core-relief #menu-products-menu .current-menu-item {
+  background: #068509 !important;
+}
+
+.page-template-product-page-vector-control-template .priority-section__card {
+  width: 60%;
+}

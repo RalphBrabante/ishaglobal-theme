@@ -18,7 +18,7 @@
                         <a href="tel:+63270015487" class="unordered-list__link">Office Landline: +632 7 001 5487</a>
                     </li>
                     <li class="unordered-list__item">
-                        <a href="tel:+639178844742" class="unordered-list__link">Mobile: +63 917 884 4742 (ISHA)</a>
+                        <a href="tel:+639178844742" class="unordered-list__link">Mobile: +63 917 884 ISHA (4742)</a>
                     </li>
                     <li class="unordered-list__item">
                         <a href="mailto:info@ishaglobal.com.ph" class="unordered-list__link">Email: info@ishaglobal.com.ph</a>
@@ -29,7 +29,7 @@
 
             <div class="col-2-5">
                 <h4>Office Address</h4>
-                <p>Unit 1002 Alabang Business Tower</br> 1216 Acacia Ave., Madrigal Business Park</br> Ayala Alabang, Muntinlupa City, 1780 Philippines </p>
+                <p>Unit 1002 Alabang Business Tower</br> 1216 Acacia Ave., Madrigal Business Park</br> Ayala Alabang, Muntinlupa City, </br>1780 Philippines </p>
             </div>
         </div>
         <div class="footer__social-media-icons">

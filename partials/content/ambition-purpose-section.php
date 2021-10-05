@@ -25,7 +25,7 @@
             </div>
             <div class="col col-4">
                 <h3>Our</br>Purpose</h3>
-                <p>To help build a safe haven and a healthy, disease-free community by providing modern and innovative solutions for the protection against insect pests, viruses, bacteria, fungi, pathogens and other vector-borne diseases</p>
+                <p>To help build a safe haven and a healthy, disease-free community by providing modern and innovative solutions for the protection against viruses, insect pests, bacteria, fungi, pathogens and other vector-borne diseases</p>
             </div>
         </div>
     </div>

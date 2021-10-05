@@ -249,6 +249,7 @@
     position: absolute;
     width: 100%;
     padding: 2rem;
+
     bottom: 0;
     color: #fff;
     background-color: rgba($dark-blue, 0.6);
@@ -283,6 +284,7 @@
   &__cards {
     flex-wrap: wrap;
     text-align: justify;
+    justify-content: center;
   }
 
   &__card {
@@ -367,6 +369,10 @@
 }
 
 /* Featurette Section  */
+
+.solutions-section {
+  margin-top: 17rem;
+}
 
 .solutions-section__inner .row {
   background-color: $grey-bg;
@@ -561,8 +567,10 @@ button.overview-btn-set__active {
   border: none !important;
 }
 
-.wpcp-slide-image img {
-  height: 6rem !important;
+.wpcp-slide-image img,
+.slick-slide {
+  height: 11rem !important;
+
   width: auto;
 }
 
@@ -800,16 +808,22 @@ button.overview-btn-set__active {
 
   &__header {
     text-align: center;
+    margin-top: 17rem;
     padding: 7rem 1rem;
   }
 
   &__row {
-    padding: 10rem 1rem;
+    padding: 13rem 1rem;
+    position: relative;
   }
 
   &__inner {
     max-width: 115rem;
     margin: 0 auto;
+    & .btn-call-to-action {
+      position: absolute !important;
+      bottom: -8rem;
+    }
   }
 }
 
@@ -1039,9 +1053,9 @@ button.overview-btn-set__active {
   &__col {
     text-align: left;
     transform: translatey(-5rem);
-    padding: 0 6rem;
+    padding: 0 5rem;
     & h3 {
-      text-transform: uppercase;
+      text-transform: capitalize;
       font-size: 2.5rem;
       font-weight: bold;
     }
@@ -1065,7 +1079,7 @@ button.overview-btn-set__active {
     }
     &__inner {
       margin-top: 8rem;
-      border: 0.6rem dotted orangered;
+      border: 0.6rem dotted $primary;
       height: 40rem;
       max-width: 100rem;
       margin: 0 auto;
@@ -1338,7 +1352,7 @@ button.overview-btn-set__active {
 
   & h3 {
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
 
   & .col-4 {
@@ -1414,7 +1428,8 @@ button.overview-btn-set__active {
 }
 
 .top-info-v2__footer p {
-  text-transform: uppercase !important;
+  text-transform: capitalize !important;
+  letter-spacing: 1px !important;
 }
 
 .top-info-v2__footer .n2-ss-layer-row-inner {
