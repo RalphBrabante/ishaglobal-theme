@@ -29,7 +29,10 @@
 
             <div class="col-2-5">
                 <h4>Office Address</h4>
-                <p>Unit 1002 Alabang Business Tower</br> 1216 Acacia Ave., Madrigal Business Park</br> Ayala Alabang, Muntinlupa City, </br>1780 Philippines </p>
+                <p>Unit 1002 Alabang Business Tower</br>
+                    1216 Acacia Ave., Madrigal Business Park</br>
+                    Ayala Alabang, Muntinlupa City 1780 Philippines</p>
+
             </div>
         </div>
         <div class="footer__social-media-icons">
@@ -58,7 +61,7 @@
 
             </div>
             <div class="footer__copyright">
-                <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | <a href="http://112.198.200.244/ishaglobal/privacy-policy/">Privacy Policy</a> | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
+                <p>Copyright <?php echo date("Y"); ?> <strong>Isha Global Distribution Corp.</strong> | <a href="http://ishav4.sysgage.com/privacy-policy/">Privacy Policy</a> | Web Design by <a href="https://sysgage.com" target="_blank" style="text-decoration:none; color: #0e72e3;">Sysgage I.T. Solutions Co.</a></p>
             </div>
             <?php wp_footer(); ?>
 

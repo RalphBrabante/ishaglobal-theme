@@ -106,47 +106,39 @@ jQuery(".sidebar__close-btn").click(function () {
   jQuery(".sidebar").css({ right: "-70%" });
 });
 
-
-
 //About us Read more
 
-jQuery('.founders-section__col .founder-read-more').on('click',function(){
+jQuery(".founders-section__col .founder-read-more").on("click", function () {
+  jQuery(".management-section").css({ marginTop: "104rem" });
 
-jQuery('.management-section').css({marginTop:"70rem"})
+  jQuery(this).parent().children(".founders-excerpt").hide();
+  jQuery(this).parent().children(".founders-text").show();
 
-jQuery(this).parent().children('.founders-excerpt').hide();
-jQuery(this).parent().children('.founders-text').show();
+  jQuery(this).parent().children(".founder-read-more").hide();
+  jQuery(this).parent().children(".founder-read-less").show();
+});
 
+jQuery(".founders-section__col .founder-read-less").on("click", function () {
+  jQuery(this).parent().children(".founders-excerpt").show();
+  jQuery(this).parent().children(".founders-text").hide();
+  jQuery(".management-section").css({ marginTop: "55rem" });
 
-jQuery(this).parent().children('.founder-read-more').hide();
-jQuery(this).parent().children('.founder-read-less').show();
-})
+  jQuery(this).parent().children(".founder-read-more").show();
+  jQuery(this).parent().children(".founder-read-less").hide();
+});
 
+jQuery(".about-read-more span").on("click", function () {
+  jQuery(this).parents(".about-us-excerpt").hide();
+  jQuery(this)
+    .parents(".about-us-excerpt")
+    .siblings(".about-us-main-content")
+    .show();
+});
 
-
-jQuery('.founders-section__col .founder-read-less').on('click',function(){
-jQuery(this).parent().children('.founders-excerpt').show();
-jQuery(this).parent().children('.founders-text').hide();
-jQuery('.management-section').css({marginTop:"44rem"})
-
-jQuery(this).parent().children('.founder-read-more').show();
-jQuery(this).parent().children('.founder-read-less').hide();
-})
-
-
-
-
-jQuery('.about-read-more span').on('click', function(){
-
-  jQuery(this).parents('.about-us-excerpt').hide()
-  jQuery(this).parents('.about-us-excerpt').siblings('.about-us-main-content').show()
-
-})
-
-
-jQuery('.about-read-less span').on('click', function(){
-
-  jQuery(this).parents('.about-us-main-content').hide()
-  jQuery(this).parents('.about-us-main-content').siblings('.about-us-excerpt').show()
-
-})
+jQuery(".about-read-less span").on("click", function () {
+  jQuery(this).parents(".about-us-main-content").hide();
+  jQuery(this)
+    .parents(".about-us-main-content")
+    .siblings(".about-us-excerpt")
+    .show();
+});

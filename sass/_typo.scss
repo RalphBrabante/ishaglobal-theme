@@ -1,10 +1,11 @@
 p {
-  font-size: 1.6rem;
+  font-size: 1.7rem !important;
   margin: 1rem 0;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  line-height: 1.7;
 }
 
 h1 {
@@ -33,6 +34,11 @@ h3 {
 h4 {
   font-size: 1.5rem;
   font-weight: bold;
+
+  &.founders__position {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
 }
 
 /* Page List */
@@ -84,19 +90,35 @@ h4 {
 }
 
 #home-disinfect-h1 {
-  color: #58ffa7;
+  color: #ff3162;
   font-style: italic;
-  font-family: "Lato", sans-serif;
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200;
 }
 
 #home-core-relief-h1 {
   color: #ffe644;
   font-style: italic;
-  font-family: "Lato", sans-serif;
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200;
 }
 
 #home-vector-h1 {
   color: #ff6100;
   font-style: italic;
-  font-family: "Lato", sans-serif;
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200;
+}
+
+.our-princinples-section h2 {
+  font-size: 4.4rem;
+}
+
+.top-info-v2__footer p {
+  font-size: 3rem !important;
+}
+
+.footer p {
+  font-size: 1.4rem !important;
+  font-weight: 500;
 }

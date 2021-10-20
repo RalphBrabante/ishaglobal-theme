@@ -5,18 +5,25 @@ $dark-blue: #021059;
 $grey-bg: #f2f2f2;
 $yellow: #ff9d14;
 
+@font-face {
+  font-family: "Pragmatica ExtraLight Reg";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pragmatica ExtraLight Reg"),
+    url("../fonts/Pragmatica-ExtraLight.woff") format("woff");
+}
+
 html {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 *,

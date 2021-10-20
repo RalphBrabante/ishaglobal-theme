@@ -264,6 +264,28 @@
       }
     }
   }
+
+  &__footer--lighter {
+    position: absolute !important;
+    width: 100%;
+    padding: 2rem;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba($dark-blue, 0.2);
+
+    & p {
+      font-size: 2.8rem !important;
+    }
+    &__inner {
+      max-width: 112.5rem;
+      margin: 0 auto;
+
+      & h2 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
 
 /* Priority section */
@@ -686,11 +708,11 @@ button.overview-btn-set__active {
 .btn-call-to-action {
   background: $yellow;
   display: inline-block;
-  padding: 1.6rem 6rem;
+  padding: 0.8rem 2.8rem;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: bold;
 }
 
@@ -993,8 +1015,8 @@ button.overview-btn-set__active {
   top: -1;
   z-index: 99999;
   right: -40;
-  border: 21px solid transparent;
-  border-left: 20px solid #fff;
+  border: 24px solid transparent;
+  border-left: 16px solid #fff;
   position: absolute;
 }
 
@@ -1003,8 +1025,8 @@ button.overview-btn-set__active {
   top: 0;
   z-index: 99999;
   right: -40;
-  border: 20px solid transparent;
-  border-left: 20px solid #021059;
+  border: 24px solid transparent;
+  border-left: 16px solid #021059;
   position: absolute;
 }
 
@@ -1053,7 +1075,7 @@ button.overview-btn-set__active {
   &__col {
     text-align: left;
     transform: translatey(-5rem);
-    padding: 0 5rem;
+    padding: 0 4rem;
     & h3 {
       text-transform: capitalize;
       font-size: 2.5rem;
@@ -1067,7 +1089,7 @@ button.overview-btn-set__active {
   }
 
   &__inner-text {
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
   }
 
   &__inner {
@@ -1116,8 +1138,8 @@ button.overview-btn-set__active {
 
 .management-section {
   background: $grey-bg;
-  margin-top: 44rem;
-  margin-bottom: 25rem;
+  margin-top: 54rem;
+  margin-bottom: 17.5rem;
   height: 29rem;
 
   &__bio-img {
@@ -1253,12 +1275,17 @@ button.overview-btn-set__active {
       padding: 1rem 2rem;
       color: #fff;
       font-size: 2.5rem;
+      margin-top: 4.5rem;
     }
   }
 
   &__list-item {
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    padding-bottom: 5rem;
+  }
+
+  & > .btn {
+    margin-bottom: 4.5rem;
   }
 }
 
@@ -1346,7 +1373,7 @@ button.overview-btn-set__active {
   & h2 {
     font-size: 2rem;
     text-align: center;
-    margin: 0rem 0 6rem 0;
+    margin: 0rem 0 15rem 0;
     font-weight: bold;
   }
 
@@ -1428,8 +1455,7 @@ button.overview-btn-set__active {
 }
 
 .top-info-v2__footer p {
-  text-transform: capitalize !important;
-  letter-spacing: 1px !important;
+  letter-spacing: 2px !important;
 }
 
 .top-info-v2__footer .n2-ss-layer-row-inner {
@@ -1467,14 +1493,90 @@ button.overview-btn-set__active {
 }
 
 #home-products-row h2 {
-  font-size: 8.5rem !important;
+  font-size: 7.5rem !important;
+  margin-bottom: 2rem;
 }
 
 .founders-section__col:first-child .founders-section__inner-text {
   padding-top: 3.5rem !important;
-  padding-bottom: 3.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .ambition-and-purpose .col-4 {
   padding: 1rem;
+}
+
+.covid-button-sets {
+  padding-right: 2rem;
+}
+.covid-btn {
+  padding: 1.6rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  font-weight: 400;
+  color: #000;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.covid-btn--active {
+  padding: 1.6rem 2rem;
+  background: #131137;
+  border: none;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.covid-full-width-image-row {
+  height: 50rem;
+  position: relative;
+  background: url("../media/images/wuhan-bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &__footer {
+    padding: 0 !important;
+    position: absolute;
+    background: #131137;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+
+    & .content-wrap {
+      padding: 0.5rem 1rem;
+    }
+    & p {
+      margin: 0;
+    }
+  }
+}
+
+.covid-upsell-section {
+  text-align: center;
+  font-weight: bold;
+  background: $grey-bg;
+  padding: 3rem 1rem;
+  margin-bottom: 15rem;
+
+  & p {
+    &:nth-of-type(2) {
+      font-size: 2.3rem !important;
+    }
+  }
+
+  & .col-5 {
+    position: relative;
+  }
+
+  & img {
+    position: absolute;
+    bottom: -11rem;
+    left: 0;
+  }
 }

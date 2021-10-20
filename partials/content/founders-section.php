@@ -26,7 +26,7 @@
                         <img class="img-responsive" src="<?php the_post_thumbnail_url(); ?>" />
                         <div class="founders-section__inner-text">
                             <h3><?php the_title(); ?></h3>
-                            <h4><?php the_field('sub_title'); ?></h4>
+                            <h4 class="founders__position"><?php the_field('sub_title'); ?></h4>
                             <div class="founders-section__bio">
                                 <div class="founders-text"><?php the_field('text'); ?></div>
                                 <?php if (!empty(get_field('excerpt'))) : ?>

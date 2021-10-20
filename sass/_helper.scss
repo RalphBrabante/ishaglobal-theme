@@ -125,3 +125,21 @@ div.transform-uppercase h2 {
 .child-text-center {
   text-align: center;
 }
+
+.content-wrap {
+  max-width: 105rem;
+  margin: 0 auto;
+  padding: 2rem 0.7rem;
+}
+
+.bold-and-uppercase {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page-template-covid-page section {
+  padding: 2rem 0.5rem;
+}

@@ -13,12 +13,12 @@
     <div class="priciple-inner container-horizontal">
         <ul data-columns="2">
             <li>
-                <h4>Uphold strong moral ethical principles and values</h4>
+                <h4><u>Uphold strong moral values and ethical practices</u></h4>
                 <p>Our work is defined by honest commitments and responsible actions.</p>
             </li>
             <li>
                 <h4>Our compass is always set at True North</h4>
-                <p>We engage ourselves with a clear-eyed commitment and determination to achieve our goals and aspirations.</p>
+                <p>We engage ourselves with a clear-eyed <strong><u>perspective</u></strong> and determination to achieve our goals and aspirations.</p>
             </li>
             <li>
                 <h4>Striving for the best in what we do</h4>
@@ -37,7 +37,7 @@
 
             <li>
                 <h4>Maintain balance between the economy and ecosystem</h4>
-                <p>We treat social responsibility and business as integral to each other’s existence. So, as we grow our business, we extend our hands to communities who are in need for the betterment and welfare of our society. </p>
+                <p>We <strong><u>see</u></strong> social responsibility and business as integral to each other’s existence. <strong><u>That’s why we pledge to extend hands</u></strong> to communities who are in need for the betterment and welfare of our society.</p>
             </li>
         </ul>
 

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Pragmatica ExtraLight Reg";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pragmatica ExtraLight Reg"), url("../fonts/Pragmatica-ExtraLight.woff") format("woff"); }
+
 html {
   padding: 0;
   margin: 0;
@@ -7,7 +13,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: "Quicksand", sans-serif; }
 
 *,
 ::after,
@@ -78,6 +84,7 @@ body {
   width: 50%; }
 
 .col-6 {
+  position: relative;
   width: 60%; }
 
 .col-7 {
@@ -90,12 +97,13 @@ body {
   width: 100%; }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.7rem !important;
   margin: 1rem 0;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
-  hyphens: none; }
+  hyphens: none;
+  line-height: 1.7; }
 
 h1 {
   font-size: 4.5rem;
@@ -119,6 +127,9 @@ h3 {
 h4 {
   font-size: 1.5rem;
   font-weight: bold; }
+  h4.founders__position {
+    font-size: 1.3rem;
+    font-weight: bold; }
 
 /* Page List */
 .page-main ul {
@@ -153,19 +164,32 @@ h4 {
   font-size: 1.8rem; }
 
 #home-disinfect-h1 {
-  color: #58ffa7;
+  color: #ff3162;
   font-style: italic;
-  font-family: "Lato", sans-serif; }
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200; }
 
 #home-core-relief-h1 {
   color: #ffe644;
   font-style: italic;
-  font-family: "Lato", sans-serif; }
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200; }
 
 #home-vector-h1 {
   color: #ff6100;
   font-style: italic;
-  font-family: "Lato", sans-serif; }
+  font-family: "Pragmatica ExtraLight Reg";
+  font-weight: 200; }
+
+.our-princinples-section h2 {
+  font-size: 4.4rem; }
+
+.top-info-v2__footer p {
+  font-size: 3rem !important; }
+
+.footer p {
+  font-size: 1.4rem !important;
+  font-weight: 500; }
 
 /* HEADER */
 .header {
@@ -369,6 +393,21 @@ h4 {
       max-width: 112.5rem;
       margin: 0 auto; }
       .top-info-v2__footer__inner h2 {
+        text-align: center;
+        text-transform: uppercase; }
+  .top-info-v2__footer--lighter {
+    position: absolute !important;
+    width: 100%;
+    padding: 2rem;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(2, 16, 89, 0.2); }
+    .top-info-v2__footer--lighter p {
+      font-size: 2.8rem !important; }
+    .top-info-v2__footer--lighter__inner {
+      max-width: 112.5rem;
+      margin: 0 auto; }
+      .top-info-v2__footer--lighter__inner h2 {
         text-align: center;
         text-transform: uppercase; }
 
@@ -667,11 +706,11 @@ button.overview-btn-set__active {
 .btn-call-to-action {
   background: #ff9d14;
   display: inline-block;
-  padding: 1.6rem 6rem;
+  padding: 0.8rem 2.8rem;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: bold; }
 
 /* Products Menu */
@@ -910,8 +949,8 @@ button.overview-btn-set__active {
   top: -1;
   z-index: 99999;
   right: -40;
-  border: 21px solid transparent;
-  border-left: 20px solid #fff;
+  border: 24px solid transparent;
+  border-left: 16px solid #fff;
   position: absolute; }
 
 .breadcrumb_last::after {
@@ -919,8 +958,8 @@ button.overview-btn-set__active {
   top: 0;
   z-index: 99999;
   right: -40;
-  border: 20px solid transparent;
-  border-left: 20px solid #021059;
+  border: 24px solid transparent;
+  border-left: 16px solid #021059;
   position: absolute; }
 
 /* Featured Products */
@@ -956,7 +995,7 @@ button.overview-btn-set__active {
   .founders-section__col {
     text-align: left;
     transform: translatey(-5rem);
-    padding: 0 5rem; }
+    padding: 0 4rem; }
     .founders-section__col h3 {
       text-transform: capitalize;
       font-size: 2.5rem;
@@ -966,7 +1005,7 @@ button.overview-btn-set__active {
       background: #fff;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
   .founders-section__inner-text {
-    padding: 3rem 2rem; }
+    padding: 3rem 1rem; }
   .founders-section__inner h2 {
     font-weight: bold;
     text-align: center;
@@ -998,8 +1037,8 @@ button.overview-btn-set__active {
 
 .management-section {
   background: #f2f2f2;
-  margin-top: 44rem;
-  margin-bottom: 25rem;
+  margin-top: 54rem;
+  margin-bottom: 17.5rem;
   height: 29rem; }
   .management-section__bio-img {
     overflow: hidden;
@@ -1092,10 +1131,13 @@ button.overview-btn-set__active {
     background: #021059;
     padding: 1rem 2rem;
     color: #fff;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    margin-top: 4.5rem; }
   .careers__list-item {
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem; }
+    padding-bottom: 5rem; }
+  .careers > .btn {
+    margin-bottom: 4.5rem; }
 
 .search-result-box {
   border: 1px solid #ededed;
@@ -1158,7 +1200,7 @@ button.overview-btn-set__active {
   .ambition-and-purpose h2 {
     font-size: 2rem;
     text-align: center;
-    margin: 0rem 0 6rem 0;
+    margin: 0rem 0 15rem 0;
     font-weight: bold; }
   .ambition-and-purpose h3 {
     font-weight: bold;
@@ -1217,8 +1259,7 @@ button.overview-btn-set__active {
   text-align: center; }
 
 .top-info-v2__footer p {
-  text-transform: capitalize !important;
-  letter-spacing: 1px !important; }
+  letter-spacing: 2px !important; }
 
 .top-info-v2__footer .n2-ss-layer-row-inner {
   display: block !important; }
@@ -1246,14 +1287,73 @@ button.overview-btn-set__active {
   font-size: 2.5rem; }
 
 #home-products-row h2 {
-  font-size: 8.5rem !important; }
+  font-size: 7.5rem !important;
+  margin-bottom: 2rem; }
 
 .founders-section__col:first-child .founders-section__inner-text {
   padding-top: 3.5rem !important;
-  padding-bottom: 3.2rem; }
+  padding-bottom: 1.2rem; }
 
 .ambition-and-purpose .col-4 {
   padding: 1rem; }
+
+.covid-button-sets {
+  padding-right: 2rem; }
+
+.covid-btn {
+  padding: 1.6rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  font-weight: 400;
+  color: #000;
+  width: 100%;
+  margin: 0.5rem 0; }
+
+.covid-btn--active {
+  padding: 1.6rem 2rem;
+  background: #131137;
+  border: none;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  margin: 0.5rem 0; }
+
+.covid-full-width-image-row {
+  height: 50rem;
+  position: relative;
+  background: url("../media/images/wuhan-bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .covid-full-width-image-row__footer {
+    padding: 0 !important;
+    position: absolute;
+    background: #131137;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    color: #fff; }
+    .covid-full-width-image-row__footer .content-wrap {
+      padding: 0.5rem 1rem; }
+    .covid-full-width-image-row__footer p {
+      margin: 0; }
+
+.covid-upsell-section {
+  text-align: center;
+  font-weight: bold;
+  background: #f2f2f2;
+  padding: 3rem 1rem;
+  margin-bottom: 15rem; }
+  .covid-upsell-section p:nth-of-type(2) {
+    font-size: 2.3rem !important; }
+  .covid-upsell-section .col-5 {
+    position: relative; }
+  .covid-upsell-section img {
+    position: absolute;
+    bottom: -11rem;
+    left: 0; }
 
 .heading-with-shadow h2 {
   text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important; }
@@ -1356,6 +1456,21 @@ div.transform-uppercase h2 {
 
 .child-text-center {
   text-align: center; }
+
+.content-wrap {
+  max-width: 105rem;
+  margin: 0 auto;
+  padding: 2rem 0.7rem; }
+
+.bold-and-uppercase {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif; }
+
+.page-template-covid-page section {
+  padding: 2rem 0.5rem; }
 
 @media only screen and (max-width: 1239px) {
   .top-info-v2__inner {
