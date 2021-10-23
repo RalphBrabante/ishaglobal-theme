@@ -142,3 +142,47 @@ jQuery(".about-read-less span").on("click", function () {
     .siblings(".about-us-excerpt")
     .show();
 });
+
+// Animations for Covid 19 Tabs
+
+jQuery(".covid-btn").on("click", function () {
+  jQuery(".covid-btn").removeClass("covid-btn--active");
+  jQuery(this).addClass("covid-btn--active");
+});
+
+// Animations for Covid 19 Tabs END
+
+// const totalTabs = 5;
+// let ctr = 1;
+// while (ctr < 5) {
+//   jQuery(`.covid-btn--${ctr}`).on("click", function () {
+//     jQuery(".covid-text-container").css({ display: "none" });
+//     jQuery(`.covid-text-container--${ctr}`).css({ display: "block" });
+//   });
+//   ctr++;
+// }
+
+jQuery(".covid-btn--1").on("click", function () {
+  jQuery(".covid-text-container").css({ display: "none" });
+  jQuery(".covid-text-container--1").css({ display: "block" });
+});
+
+jQuery(".covid-btn--2").on("click", function () {
+  jQuery(".covid-text-container").css({ display: "none" });
+  jQuery(".covid-text-container--2").css({ display: "block" });
+});
+
+jQuery(".covid-btn--3").on("click", function () {
+  jQuery(".covid-text-container").css({ display: "none" });
+  jQuery(".covid-text-container--3").css({ display: "block" });
+});
+
+jQuery(".covid-btn--4").on("click", function () {
+  jQuery(".covid-text-container").css({ display: "none" });
+  jQuery(".covid-text-container--4").css({ display: "block" });
+});
+
+jQuery(".covid-btn--5").on("click", function () {
+  jQuery(".covid-text-container").css({ display: "none" });
+  jQuery(".covid-text-container--5").css({ display: "block" });
+});

@@ -191,6 +191,9 @@ h4 {
   font-size: 1.4rem !important;
   font-weight: 500; }
 
+.timeline__content-container p {
+  font-size: 1.4rem !important; }
+
 /* HEADER */
 .header {
   position: fixed;
@@ -335,7 +338,8 @@ h4 {
   font-size: 1.4rem;
   padding: 0.8rem 2rem;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 .btn-blue {
   background: #021059; }
@@ -403,7 +407,8 @@ h4 {
     color: #fff;
     background-color: rgba(2, 16, 89, 0.2); }
     .top-info-v2__footer--lighter p {
-      font-size: 2.8rem !important; }
+      font-size: 2.8rem !important;
+      letter-spacing: 2px !important; }
     .top-info-v2__footer--lighter__inner {
       max-width: 112.5rem;
       margin: 0 auto; }
@@ -1355,6 +1360,126 @@ button.overview-btn-set__active {
     bottom: -11rem;
     left: 0; }
 
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .timeline__year {
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    z-index: 10; }
+  .timeline__year:nth-child(odd) {
+    background: #ff9d14 !important;
+    display: inline-block; }
+  .timeline__year:nth-child(even) {
+    background: #021059 !important;
+    display: inline-block; }
+  .timeline__year-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center; }
+  .timeline__circle-container {
+    padding: 0.4rem;
+    border: 1px solid #ff9d14;
+    border-radius: 100%;
+    margin: 5rem 0;
+    position: relative;
+    z-index: 9;
+    background: #fff; }
+    .timeline__circle-container::before {
+      content: " ";
+      bottom: 3rem;
+      border: 1px solid #ff9d14;
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+      height: 7rem;
+      width: 0.5rem;
+      background: #ff9d14;
+      z-index: -2; }
+    .timeline__circle-container::after {
+      content: " ";
+      border: 1px solid #ff9d14;
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translatex(-50%);
+      height: 7rem;
+      width: 0.5rem;
+      background: #ff9d14;
+      z-index: -2;
+      top: 3rem; }
+  .timeline__inner-circle {
+    border: 1px solid #ff9d14;
+    border-radius: 100%;
+    padding: 1rem;
+    background: #ff9d14; }
+  .timeline__year-wrapper:last-child {
+    margin-bottom: 10rem; }
+    .timeline__year-wrapper:last-child .timeline__circle-container:last-child::after {
+      display: none; }
+
+.timeline__year-wrapper:nth-child(odd) > .timeline__year {
+  background: #021059 !important;
+  display: inline-block;
+  border-radius: 1rem;
+  color: #fff;
+  z-index: 10; }
+
+.timeline__year-wrapper:nth-child(odd) .timeline__circle-container {
+  border-color: #021059; }
+
+.timeline__year-wrapper:nth-child(odd) .timeline__circle-container:nth-child(even) > .timeline__content-container {
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  width: 50rem; }
+
+.timeline__year-wrapper:nth-child(odd) .timeline__circle-container:nth-child(odd) > .timeline__content-container {
+  position: absolute;
+  top: 0;
+  right: 6rem;
+  width: 50rem;
+  text-align: right; }
+
+.timeline__year-wrapper:nth-child(odd) .timeline__inner-circle {
+  background: #021059;
+  border-color: #021059; }
+
+.timeline__year-wrapper:nth-child(odd) > ::before,
+.timeline__year-wrapper:nth-child(odd) > ::after {
+  background: #021059;
+  border-color: #021059; }
+
+.timeline__year-wrapper:nth-child(even) > .timeline__year {
+  background: #ff9d14 !important;
+  display: inline-block;
+  border-radius: 1rem;
+  color: #fff;
+  z-index: 10; }
+
+.timeline__year-wrapper:nth-child(even) .timeline__circle-container:nth-child(even) > .timeline__content-container {
+  position: absolute;
+  top: 0;
+  right: 6rem;
+  width: 50rem;
+  text-align: right; }
+
+.timeline__year-wrapper:nth-child(even) .timeline__circle-container:nth-child(odd) > .timeline__content-container {
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  width: 50rem; }
+
+.covid-text-container {
+  display: none; }
+
+.covid-text-container--visible {
+  display: block; }
+
 .heading-with-shadow h2 {
   text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important; }
 
@@ -1471,6 +1596,10 @@ div.transform-uppercase h2 {
 
 .page-template-covid-page section {
   padding: 2rem 0.5rem; }
+
+.timeline-header {
+  font-size: 1.6rem;
+  font-weight: bold; }
 
 @media only screen and (max-width: 1239px) {
   .top-info-v2__inner {

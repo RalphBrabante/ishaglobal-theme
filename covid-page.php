@@ -43,43 +43,58 @@ get_header();
         <div class="mt-2 flex-align">
             <div class="col-4">
                 <div class="covid-button-sets">
-                    <button class="covid-btn covid-btn--active btn ">
-                        Following Who Guidelines
+                    <button class="covid-btn covid-btn--active btn covid-btn--1">
+                        <?php the_field('heading_1'); ?>
                     </button>
-                    <button class="covid-btn covid-btn btn ">
-                        Adjustment in Workforce
+                    <button class="covid-btn  btn covid-btn--2">
+                        <?php the_field('heading_2'); ?>
                     </button>
-                    <button class="covid-btn covid-btn btn ">
-                        Government Regulations
+                    <button class="covid-btn btn covid-btn--3">
+                        <?php the_field('heading_3'); ?>
                     </button>
-                    <button class="covid-btn covid-btn btn ">
-                        Limited Transportation
+                    <button class="covid-btn btn covid-btn--4">
+                        <?php the_field('heading_4'); ?>
                     </button>
-                    <button class="covid-btn covid-btn btn ">
-                        Out of School Education
+                    <button class="covid-btn btn covid-btn--5">
+                        <?php the_field('heading_5'); ?>
                     </button>
                 </div>
             </div>
             <div class="col-6">
-                <p>The WHO recorded 2.7 million deaths from Covid-19 between March 2020 - March 2021, becoming the 4th leading cause ofdeath. Economic crises, job losses, and pause in education are just a few of the glaring consequences facing most countries.Several vaccines have been approved for “emergency use”, with some countries achieving high vaccination rates (Israel, NewZealand), others managing uneven vaccination rate/rollout (USA, Philippines). The virus has mutated into new variants like theDelta variant, currently responsible for a spike in new infections and hospitalization and mortality.</p>
+                <div class="covid-text-container covid-text-container--1 covid-text-container--visible">
+                    <?php the_field('content_1'); ?>
+                </div>
+                <div class="covid-text-container covid-text-container--2">
+                    <?php the_field('content_2'); ?>
+                </div>
+
+                <div class="covid-text-container covid-text-container--3">
+                    <?php the_field('content_3'); ?>
+                </div>
+
+                <div class="covid-text-container covid-text-container--4">
+                    <?php the_field('content_4'); ?>
+                </div>
+
+                <div class="covid-text-container covid-text-container--5">
+                    <?php the_field('content_5'); ?>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="content content-wrap">
-        <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/10/covid-19-timeline-img.png" />
+        <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/10/covid-19-timeline-img.png" />
     </section>
 
-    <section>
-        <h2>Still working on timeline feature...</h2>
-    </section>
+    <?php get_template_part('partials/content/timeline', 'block'); ?>
 
     <section class="covid-upsell-section">
         <div class="content content-wrap">
             <div class="flex-align">
                 <div class="col-5">
 
-                    <img class="img-responsive" src="http://localhost/ishaglobal/wp-content/uploads/2021/10/disinfection-image.png" />
+                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/10/disinfection-image.png" />
                 </div>
                 <div class="col-5">
                     <p>It is expected that COVID-19 situation will</br> remain a primary healthcare challenge in the</br> next 2 to 3 years.</p>

@@ -9,7 +9,7 @@
         <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('http://ishav4.sysgage.com/wp-content/uploads/2021/09/Spritz.jpg')no-repeat right; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
             <div class="row__inner inline">
                 <div class="col-10">
-                    <h2 class="white">When a spritz won’t suffice…</h2>
+                    <h2 class="white">When a spritz</br>&nbsp;&nbsp;won’t suffice…</h2>
                     <div class="home-products-middle">
                         <p class="white-text">Eliminate viral and microbial traces from any surface with our potent Disinfection and Sanitization solutions</p>
                         <a href="<?php the_field('product_link_1'); ?>" class="btn-call-to-action medium-margin-top">Learn More</a>

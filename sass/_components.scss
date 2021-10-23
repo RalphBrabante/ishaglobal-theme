@@ -182,6 +182,7 @@
   padding: 0.8rem 2rem;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn-blue {
@@ -275,6 +276,7 @@
 
     & p {
       font-size: 2.8rem !important;
+      letter-spacing: 2px !important;
     }
     &__inner {
       max-width: 112.5rem;
@@ -1579,4 +1581,167 @@ button.overview-btn-set__active {
     bottom: -11rem;
     left: 0;
   }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__year {
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    z-index: 10;
+  }
+  &__year:nth-child(odd) {
+    background: $yellow !important;
+    display: inline-block;
+  }
+
+  &__year:nth-child(even) {
+    background: $primary !important;
+    display: inline-block;
+  }
+
+  &__year-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__circle-container {
+    padding: 0.4rem;
+    border: 1px solid $yellow;
+    border-radius: 100%;
+    margin: 5rem 0;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+    &::before {
+      content: " ";
+      bottom: 3rem;
+      border: 1px solid $yellow;
+      position: absolute;
+
+      left: 50%;
+      transform: translatex(-50%);
+      height: 7rem;
+      width: 0.5rem;
+      background: $yellow;
+      z-index: -2;
+    }
+
+    &::after {
+      content: " ";
+      border: 1px solid $yellow;
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translatex(-50%);
+      height: 7rem;
+      width: 0.5rem;
+      background: $yellow;
+      z-index: -2;
+      top: 3rem;
+    }
+  }
+
+  &__inner-circle {
+    border: 1px solid $yellow;
+    border-radius: 100%;
+    padding: 1rem;
+    background: $yellow;
+  }
+
+  &__year-wrapper:last-child {
+    margin-bottom: 10rem;
+    & .timeline__circle-container:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+// TIMELINE ODD EVEN START
+
+.timeline__year-wrapper:nth-child(odd) {
+  & > .timeline__year {
+    background: $primary !important;
+    display: inline-block;
+    border-radius: 1rem;
+    color: #fff;
+    z-index: 10;
+  }
+
+  & .timeline__circle-container {
+    border-color: $primary;
+  }
+
+  //TIMELINE LEFT OR RIGHT
+  & .timeline__circle-container:nth-child(even) > .timeline__content-container {
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    width: 50rem;
+  }
+
+  & .timeline__circle-container:nth-child(odd) > .timeline__content-container {
+    position: absolute;
+    top: 0;
+    right: 6rem;
+    width: 50rem;
+    text-align: right;
+  }
+
+  //TIMELINE LEFT OR RIGHT
+
+  & .timeline__inner-circle {
+    background: $primary;
+    border-color: $primary;
+  }
+
+  & > ::before,
+  > ::after {
+    background: $primary;
+    border-color: $primary;
+  }
+}
+
+.timeline__year-wrapper:nth-child(even) {
+  & > .timeline__year {
+    background: $yellow !important;
+    display: inline-block;
+    border-radius: 1rem;
+    color: #fff;
+    z-index: 10;
+  }
+
+  & .timeline__circle-container:nth-child(even) > .timeline__content-container {
+    position: absolute;
+    top: 0;
+    right: 6rem;
+    width: 50rem;
+    text-align: right;
+  }
+
+  & .timeline__circle-container:nth-child(odd) > .timeline__content-container {
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    width: 50rem;
+  }
+}
+
+//TIMELINE ODD EVEN END
+
+.covid-text-container {
+  display: none;
+}
+
+.covid-text-container--visible {
+  display: block;
 }
