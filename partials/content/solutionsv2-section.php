@@ -3,7 +3,7 @@
         <div class="solutions-section__heading">
             <h2>COVID-19</h2>
             <!-- TODO: Custom Field -->
-            <p><strong>The world experienced drastic changes since the emergence and spread of Covid-19. The virus’ high infection rate essentially prohibits close human interaction, leading to severe repercussions on the global economy.</strong></p>
+            <p><strong>The world experienced drastic changes since the emergence and spread of COVID-19. The virus’ high infection rate essentially prohibits close human interaction, leading to severe repercussions on the global economy.</strong></p>
         </div>
 
         <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('http://ishav4.sysgage.com/wp-content/uploads/2021/09/Spritz.jpg')no-repeat right; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">

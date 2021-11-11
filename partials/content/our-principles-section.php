@@ -11,21 +11,21 @@
 
 <section class="priciple-list">
     <div class="priciple-inner container-horizontal">
-        <ul data-columns="2">
+        <ul>
             <li>
                 <h4>Uphold strong moral values and ethical practices</h4>
                 <p>Our work is defined by honest commitments and responsible actions.</p>
             </li>
             <li>
                 <h4>Our compass is always set at True North</h4>
-                <p>We engage ourselves with a clear-eyed >perspective and determination to achieve our goals and aspirations.</p>
+                <p>We engage ourselves with a clear-eyed perspective and determination to achieve our goals and aspirations.</p>
             </li>
             <li>
                 <h4>Striving for the best in what we do</h4>
                 <p>We always perform our daily tasks with par excellence – no matter how big or small.</p>
             </li>
             <br /><br /><br />
-            <li>
+            <li style="margin-top:1.23rem">
                 <h4>Explore the possibilities of change and new ideas</h4>
                 <p>Always being adaptable and ahead of the game is how we’ll change the world for the better.</p>
             </li>

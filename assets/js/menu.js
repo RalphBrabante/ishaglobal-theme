@@ -2,7 +2,7 @@
 jQuery(window).scroll(function () {
   jQuery(".solutions-home-img").each(function () {
     const Yoffset = jQuery(this).offset().top - jQuery(window).scrollTop();
-    // console.log(Yoffset);
+    console.log(Yoffset);
     // console.log(Yoffset < 150);
     if (Yoffset < 150) {
       jQuery(this).css({ "-webkit-transform": "translate(0)" });
@@ -12,6 +12,12 @@ jQuery(window).scroll(function () {
       jQuery(this).css({ "-webkit-transform": "translateY(-20%)" });
     }
   });
+
+  if (window.pageYOffset > 600) {
+    jQuery(".back-to-top").fadeIn();
+  } else {
+    jQuery(".back-to-top").fadeOut();
+  }
 
   if (window.pageYOffset > 0 && !window.pageYOffset < 1) {
     jQuery("#menu-main-menu li a").css({
@@ -185,4 +191,23 @@ jQuery(".covid-btn--4").on("click", function () {
 jQuery(".covid-btn--5").on("click", function () {
   jQuery(".covid-text-container").css({ display: "none" });
   jQuery(".covid-text-container--5").css({ display: "block" });
+});
+
+//Scroll to top
+
+jQuery(".back-to-top").on("click", function () {
+  document.body.scrollTop = 0;
+});
+
+// Sidebar Script
+
+jQuery(".sidebar .menu-item-has-children").each(function () {
+  jQuery(this).append("<div class='menu-accordion-btn'>+</div>");
+});
+
+jQuery(".menu-accordion-btn").on("click", function () {
+  jQuery(".menu-accordion-btn").css({ display: "block" });
+  jQuery(this).css({ display: "none" });
+  jQuery(".sub-menu").css({ height: "0", display: "none" });
+  jQuery(this).siblings(".sub-menu").css({ height: "auto", display: "block" });
 });

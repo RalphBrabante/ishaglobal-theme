@@ -35,6 +35,8 @@
 
             <div class="timeline__year-wrapper">
                 <div class="timeline__year">
+
+
                     <h2><?php echo $year; ?></h2>
                 </div>
 
@@ -61,8 +63,23 @@
                     <div class="timeline__circle-container">
                         <div class="timeline__inner-circle"></div>
                         <div class="timeline__content-container">
+
+                            <!-- <?php // if (get_field("heading_size") == "Large") : 
+                                    ?>
+                                <h3 class="timeline-header" style="font-size:2.5rem"><?php //the_title(); 
+                                                                                        ?></h3>
+                            <?php // else : 
+                            ?>
+                                <h3 class="timeline-header"><?php // the_title(); 
+                                                            ?></h3>
+                            <?php // endif; 
+                            ?>
+                            <?php //the_content(); 
+                            ?> -->
+
                             <h3 class="timeline-header"><?php the_title(); ?></h3>
-                            <?php the_content(); ?>
+                            <?php the_content();
+                            ?>
                         </div>
                     </div>
 
