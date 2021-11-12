@@ -19,21 +19,12 @@ get_header();
                 yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
             }
             ?>
-
         </div>
-
 
     </main>
     <?php get_template_part('partials/content/about-usv2', 'section'); ?>
-
     <?php get_template_part('partials/content/founders', 'section'); ?>
-
     <?php get_template_part('partials/content/management', 'section'); ?>
-
-
-
-
-
     <?php get_template_part('partials/content/ambition-purpose', 'section'); ?>
     <?php get_template_part('partials/content/our-principles', 'section'); ?>
 

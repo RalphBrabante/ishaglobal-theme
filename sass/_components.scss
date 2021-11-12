@@ -1852,3 +1852,30 @@ button.overview-btn-set__active {
     }
   }
 }
+
+#knowledgebase-box {
+  position: fixed;
+  transition: 0.5s;
+  top: 32%;
+  background: $primary;
+  z-index: 999999;
+  font-size: 2rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  &:hover {
+    left: 0;
+  }
+  & a {
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &:hover {
+      padding: 1rem 2rem;
+    }
+  }
+}

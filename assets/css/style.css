@@ -1557,6 +1557,28 @@ button.overview-btn-set__active {
     position: relative;
     z-index: 99 !important; }
 
+#knowledgebase-box {
+  position: fixed;
+  transition: 0.5s;
+  top: 32%;
+  background: #021059;
+  z-index: 999999;
+  font-size: 2rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed; }
+  #knowledgebase-box:hover {
+    left: 0; }
+  #knowledgebase-box a {
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    #knowledgebase-box a:hover {
+      padding: 1rem 2rem; }
+
 .heading-with-shadow h2 {
   text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important; }
 
@@ -1892,9 +1914,13 @@ div.transform-uppercase h2 {
     flex-wrap: nowrap; }
   .ambition-and-purpose .flex-align {
     flex-direction: column; }
+  .ambition-and-purpose .mt-3 {
+    margin-bottom: 3rem; }
   .ambition-and-purpose .col-4,
   .ambition-and-purpose .col-6 {
-    width: 100%; } }
+    width: 100%; }
+  .our-purpose {
+    flex-direction: column-reverse !important; } }
 
 @media only screen and (max-width: 615px) {
   .founders-section__col {

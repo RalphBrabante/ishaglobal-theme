@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="row flex-align flex-align-center">
+        <div class="row flex-align flex-align-center our-purpose">
             <div class="col col-6">
                 <div class="img-container">
                     <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/09/Our-Purpose-1.jpg" />

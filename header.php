@@ -13,6 +13,9 @@
 
 <body <?php body_class() ?>>
 
+    <div id="knowledgebase-box">
+        <a href="#">Knowledgebase</a>
+    </div>
     <header class="header">
         <div class="header__inner inline">
             <div class="col-2 header__logo-container">
