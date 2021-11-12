@@ -826,7 +826,7 @@ button.overview-btn-set__active {
 .products-section__header {
   text-align: center;
   margin-top: 4rem;
-  padding: 7rem 1rem; }
+  padding: 3rem 1rem; }
 
 .products-section__row {
   padding: 13rem 1rem;
@@ -1578,6 +1578,9 @@ button.overview-btn-set__active {
     padding-bottom: 1rem; }
     #knowledgebase-box a:hover {
       padding: 1rem 2rem; }
+
+.about-read-more {
+  cursor: pointer; }
 
 .heading-with-shadow h2 {
   text-shadow: 2px 2px rgba(88, 88, 88, 0.7) !important; }

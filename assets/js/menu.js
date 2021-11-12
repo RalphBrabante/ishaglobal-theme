@@ -133,7 +133,7 @@ jQuery(".founders-section__col .founder-read-less").on("click", function () {
   jQuery(this).parent().children(".founder-read-less").hide();
 });
 
-jQuery(".about-read-more span").on("click", function () {
+jQuery(".about-read-more").on("click", function () {
   jQuery(this).parents(".about-us-excerpt").hide();
   jQuery(this)
     .parents(".about-us-excerpt")

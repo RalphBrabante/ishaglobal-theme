@@ -833,7 +833,7 @@ button.overview-btn-set__active {
   &__header {
     text-align: center;
     margin-top: 4rem;
-    padding: 7rem 1rem;
+    padding: 3rem 1rem;
   }
 
   &__row {
@@ -1878,4 +1878,8 @@ button.overview-btn-set__active {
       padding: 1rem 2rem;
     }
   }
+}
+
+.about-read-more {
+  cursor: pointer;
 }

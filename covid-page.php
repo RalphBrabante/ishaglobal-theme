@@ -17,19 +17,18 @@ get_header();
 
 
     <section class="content content-wrap">
-        <h1 class="bold-and-uppercase"> Covid-19 </br> A Brief Overview</h1>
+        <?php the_field('covid_top_heading'); ?>
+
         <div>
-            <p>The world experienced drastic changes since the emergence and spread of COVID-19. The virus’ high infection rate essentially prohibits close human interaction, leading to severe repercussions on the global economy.</p>
-            <p>Here is a broad breakdown of how it began, how we adapted, and where we are now in this global health crisis.</p>
+            <?php the_field('covid_top_text'); ?>
         </div>
     </section>
 
-    <section class="covid-full-width-image-row">
+    <section class="covid-full-width-image-row" style="background: url('<?php the_field('covid_top_banner_bg'); ?>') no-repeat center center">
         <div class="covid-full-width-image-row__footer">
             <div class="wider-content-wrap">
-                <p>Wuhan, China – Still unknown of its true origin but it is the place where the novel coronavirus was first identified
-                    causing viral pneumonia in December 2019, eventually earning the COVID-19 designation as rapid spread of the
-                    virus led to the onset of a global pandemic in early 2020</p>
+                <?php the_field('covid_top_banner_footer_text'); ?>
+
             </div>
 
         </div>
@@ -37,16 +36,17 @@ get_header();
 
 
     <section class="content content-wrap mt-3">
-        <h2 class="bold-and-uppercase">Where we are</h2>
+        <?php the_field('covid_where_we_are_heading'); ?>
         <div>
-            <p>The WHO recorded 4.9 million deaths from COVID-19 as of October 2021. Economic crises, job losses, and pause in education are just a few of the glaring consequences facing most countries. Several vaccines have been approved for “emergency use”, with some countries achieving high vaccination rates while others are managing uneven vaccination rollout. The virus has mutated into new variants like the Delta variant, currently responsible for a spike in new infections and hospitalization and mortality.</p>
+            <?php the_field('covid_where_we_are_text'); ?>
+
         </div>
     </section>
 
 
 
     <section class="content content-wrap">
-        <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/10/covid-19-timeline-img.png" />
+        <img class="img-responsive" src="<?php the_field('covid_where_we_are_sub_image'); ?>" />
     </section>
 
     <?php get_template_part('partials/content/timeline', 'block'); ?>
@@ -63,13 +63,12 @@ get_header();
             <div class="flex-align">
                 <div class="col-4">
 
-                    <img class="img-responsive" src="http://ishav4.sysgage.com/wp-content/uploads/2021/10/disinfection-image.png" />
+                    <img class="img-responsive" src="<?php the_field('covid_upsell_left_image'); ?>" />
                 </div>
                 <div class="col-6">
-                    <p>It is expected that COVID-19 situation will remain </br>a primary healthcare challenge in the next 2 to 3 years.</p>
-                    <p>ISHA GLOBAL Distribution Corp. can help prevent the spread of COVID cases in the country</p>
-                    <a href="#" class="btn-call-to-action medium-margin-top">
-                        OUR PRODUCTS FOR COVID-19
+                    <?php the_field('covid_upsell_right_text'); ?>
+                    <a class="btn-call-to-action medium-margin-top" href="<?php the_field('button_link'); ?>">
+                        <?php the_field('button_text'); ?>
                     </a>
                 </div>
 
