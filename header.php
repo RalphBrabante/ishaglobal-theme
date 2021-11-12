@@ -13,9 +13,11 @@
 
 <body <?php body_class() ?>>
 
-    <div id="knowledgebase-box">
-        <a href="#">Knowledgebase</a>
-    </div>
+    <?php if (current_user_can('activate_plugins') && is_user_logged_in()) : ?>
+        <div id="knowledgebase-box">
+            <a href="<?php echo get_home_url() . '/knowledge-base-video-guides/' ?>">Knowledgebase</a>
+        </div>
+    <?php endif; ?>
     <header class="header">
         <div class="header__inner inline">
             <div class="col-2 header__logo-container">

@@ -5,7 +5,7 @@
             <?php the_field('sub_heading'); ?>
         </div>
 
-        <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('http://ishav4.sysgage.com/wp-content/uploads/2021/09/Spritz.jpg')no-repeat right; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+        <div id="home-products-row" class="row row-2 large-margin-top" style="background: url('<?php echo get_home_url(); ?>/wp-content/uploads/2021/09/Spritz.jpg')no-repeat right; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;">
             <div class="row__inner inline">
                 <div class="col-10">
                     <h2 class="white">When a spritz<br /> &nbsp;&nbsp;won’t suffice…</h2>
